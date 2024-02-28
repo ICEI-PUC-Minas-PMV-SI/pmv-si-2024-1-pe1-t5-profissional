@@ -1,6 +1,8 @@
 # Introdução
 
  No atual cenário global, a tecnologia desempenha um papel cada vez mais central em praticamente todos os aspectos da sociedade. Com isso, a demanda por profissionais qualificados em tecnologia continua a crescer exponencialmente, principalmente pelo fato de ser uma área abrangente com diversas funções. No entanto, apesar do crescente interesse em carreiras tecnológicas, a entrada de novos talentos na área enfrenta diversos desafios significativos. De acordo com um levantamento da Brasscom, o Brasil teve 159 mil vagas abertas para o setor tecnológico em 2021, mas só formou 53 mil profissionais.
+São muitas áreas que abrangem o mercado da tecnologia e há diversos caminhos que o profissional pode escolher para se especializar. Com o desafio da falta de direcionamento de carreira e conhecimento da mesma, resulta nessa lacuna de muita necessidade de profissionais e desistência no início  da carreira - A evasão nos cursos presenciais de TI é de 38,5%, enquanto a média para as demais áreas foi de 30,7% (Mapa do Ensino Superior no Brasil).
+
 
 ## Problema
 
