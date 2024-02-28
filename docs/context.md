@@ -1,12 +1,6 @@
 # Introdução
 
-Imagine que você deseja apresentar este projeto para investidores que deverão decidir se investem ou não no desenvolvimento da sua ferramenta.
-
-A **Introdução** consiste das etapas: *Contextualização -- Definição do problema -- Definição dos Objetivos -- Justificativa*, e tem como função situar o seu trabalho dentro de um contexto de mercado e mostrar a importância da sua proposta para resolver a dor de um usuário.
-
-A Contextualização deve situar sem projeto em um determinado contexto de mercado, a fim de fornecer informações adicionais que possam ajudar a entender melhor o assunto que você irá abordar. Serve também para definir a relevância do seu assunto, uma vez que mostra o tamanho do mercado em que se está inserido. Ela pode envolver a análise de vários aspectos, como o ambiente histórico, cultural, político e social em que o problema a ser atacado surgiu.
-
-Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
+ No atual cenário global, a tecnologia desempenha um papel cada vez mais central em praticamente todos os aspectos da sociedade. Com isso, a demanda por profissionais qualificados em tecnologia continua a crescer exponencialmente, principalmente pelo fato de ser uma área abrangente com diversas funções. No entanto, apesar do crescente interesse em carreiras tecnológicas, a entrada de novos talentos na área enfrenta diversos desafios significativos. De acordo com um levantamento da Brasscom, o Brasil teve 159 mil vagas abertas para o setor tecnológico em 2021, mas só formou 53 mil profissionais.
 
 ## Problema
 
