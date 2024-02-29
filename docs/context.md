@@ -6,16 +6,7 @@ São muitas áreas que abrangem o mercado da tecnologia e há diversos caminhos 
 
 ## Problema
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, **não** é a hora de comentar sobre a solução/aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Um dos principais desafios é a falta de conhecimento de qual caminho seguir, pois existem diversas possibilidades, entretanto, são poucas as informações de maneira organizada para escolha de qual carreira seguir. Sendo assim, a acessibilidade à educação e às oportunidades de aprendizado em tecnologia é limitada para muitos grupos que iniciam nessa jornada.
 
 ## Objetivos
 
