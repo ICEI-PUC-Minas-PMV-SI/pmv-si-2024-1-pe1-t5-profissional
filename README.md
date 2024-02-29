@@ -10,12 +10,12 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-* João Victor Silva Farchi
-* Anna Luiza Laudares Alves Pimenta Silva
 * Ana Clara Rodrigues de Araújo
+* Anna Luiza Laudares Alves Pimenta Silva
+* João Victor Silva Farchi
+* Leandra Gomes Silva
 * Lucas Filipe Santos Lima
 * Natã Gabriel Teixeira
-* Leandra Gomes Silva
 
 ## Orientador
 
