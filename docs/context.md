@@ -24,9 +24,8 @@ O site proposto visa suprir lacunas na orientação profissional em TI, oferecen
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
+Este projeto é pensado em direcionar pessoas que estão entrando na área da tecnologia com pouco ou sem nenhum conhecimento sobre formação profissional. O objetivo principal é capacitar aqueles que desejam trabalhar nesse ramo. O plano de estudo (roadmap) foi pensado para eliminar qualquer obstáculo, direcionando-o para o melhor caminho de ensinamento. Resultando em profissionais qualificados para o mercado de trabalho.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
 
 > **Links Úteis**:
 > - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
