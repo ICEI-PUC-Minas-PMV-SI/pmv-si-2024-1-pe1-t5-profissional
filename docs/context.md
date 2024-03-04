@@ -10,12 +10,7 @@ Um dos principais desafios é a falta de conhecimento de qual caminho seguir, po
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
-
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Este projeto busca explorar essas questões, fornecendo uma análise aprofundada dos meios de qualificação pelos aspirantes a profissionais de tecnologia e propondo soluções baseadas em evidências para criar um setor mais inclusivo e equitativo.
 
 ## Justificativa
 
