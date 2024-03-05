@@ -20,10 +20,3 @@ O site proposto visa suprir lacunas na orientação profissional em TI, oferecen
 ## Público-Alvo
 
 Este projeto é pensado em direcionar pessoas que estão entrando na área da tecnologia com pouco ou sem nenhum conhecimento sobre formação profissional. O objetivo principal é capacitar aqueles que desejam trabalhar nesse ramo. O plano de estudo (roadmap) foi pensado para eliminar qualquer obstáculo, direcionando-o para o melhor caminho de ensinamento. Resultando em profissionais qualificados para o mercado de trabalho.
-
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
