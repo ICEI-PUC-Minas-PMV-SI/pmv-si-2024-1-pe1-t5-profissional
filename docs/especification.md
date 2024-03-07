@@ -8,7 +8,9 @@ Caso deseje atribuir uma imagem a sua persona, utilize o site https://thisperson
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+1. Cláudia tem 58 anos, é professora aposentada. Tem interesse na área de programação e, recentemente, ingressou em uma nova faculdade no curso de Ciência da Computação.  Apesar de toda sua ansiedade em busca de conhecimento, não soube qual área deveria priorizar em sua nova jornada. Está buscando um site que redirecione qual área corresponde mais com sua personalidade e quais caminhos pode seguir na programação.
+
+2. Otávio tem 22 anos, é estudante de Engenharia de Software. Desde sua infância foi fascinado por tecnologias e curioso pela perplexidade da computação. Já está inserido no mercado de trabalho há um ano e atuando como Desenvolvedor Mobile. Encontra-se insatisfeito com o ramo que está seguindo e gostaria de trocar de área, focando em uma que cumpra com suas metas e interesses. Está em busca de uma plataforma que o oriente sobre qual área mais se alinha com sua personalidade e quais trajetos pode seguir.
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
