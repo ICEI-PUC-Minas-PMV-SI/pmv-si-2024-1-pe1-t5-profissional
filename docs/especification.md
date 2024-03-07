@@ -59,7 +59,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-005| A aplicação deve permitir que o usuário tenha acesso aos links para ser redirecionados a tutoriais   | ALTA |
 |RF-006| A aplicação deve permitir que o usuário possa visualizar ideias de projetos e dicas para aplicar os seus conhecimentos na prática.   | MÉDIA |
 |RF-007| A aplicação deve permitir que o usuário efetue logout   | ALTA |  
-|RNF-008| A aplicação deve emitir um alerta depois de 3 dias que foi iniciado o Roadmap |  BAIXA | 
+|RF-008| A aplicação deve emitir um alerta depois de 3 dias que foi iniciado o Roadmap |  BAIXA | 
 
 
 
