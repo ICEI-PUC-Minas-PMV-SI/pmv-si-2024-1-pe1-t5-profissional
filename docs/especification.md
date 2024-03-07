@@ -52,16 +52,22 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | 
 |------|-----------------------------------------|----| 
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | ALTA |  
-|RF-002| A aplicação deve permitir a emissão de um relatório de tarefas realizadas no mês   | MÉDIA | 
+|RF-001| A aplicação deve permitir que o usuário crie uma conta | ALTA |  
+|RF-002| A aplicação deve permitir que o usuário efetue login   | ALTA |  
+|RF-003| A aplicação deve permitir que o usuário realize o teste com o intuito de indicar o Roadmap mais adequado a ele | ALTA |  
+|RF-004| A aplicação deve permitir que o usuário tenha acesso ao Roadmap   | ALTA |
+|RF-005| A aplicação deve permitir que o usuário tenha acesso aos links para ser redirecionados a tutoriais   | ALTA |
+|RF-006| A aplicação deve permitir que o usuário possa visualizar ideias de projetos e dicas para aplicar os seus conhecimentos na prática.   | MÉDIA |
+
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| A aplicação deve ser responsiva | MÉDIA | 
-|RNF-002| A aplicação deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| A aplicação deve ser responsiva nos navegadores Chrome, Safari, Firefox e Edge, assegurando também responsividade em dispositivos móveis, incluindo smartphones e tablets com Android 8.0 Oreo ou superior, e iOS 13 ou versões mais recentes. | MÉDIA |
+|RNF-002| A aplicação deve emitir um alerta depois de 3 dias que foi iniciado o Roadmap |  BAIXA | 
+
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
