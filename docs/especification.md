@@ -49,7 +49,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| A aplicação deve ser responsiva nos navegadores Chrome, Safari, Firefox e Edge, assegurando também responsividade em dispositivos móveis, incluindo smartphones e tablets com Android 8.0 Oreo ou superior, e iOS 13 ou versões mais recentes. | MÉDIA |
-|RNF-002| A aplicação deve armazenar as informações de usuário de forma segura em um banco de dados local, utilizando técnicas de criptografia adequadas para proteger as credenciais e garantir a confidencialidade dos dados. | ALTA |
+|RNF-002| A aplicação deve armazenar as informações de usuário de forma segura em um banco de dados local e garantir a confidencialidade dos dados. | ALTA |
 |RNF-003| A aplicação deve implementar políticas de controle de acesso rigorosas, garantindo que apenas usuários autenticados tenham permissão para acessar recursos específicos, visando prevenir acessos não autorizados e assegurar a integridade dos dados. | ALTA |
 
 
