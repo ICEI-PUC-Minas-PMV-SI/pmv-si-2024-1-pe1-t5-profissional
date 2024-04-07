@@ -18,7 +18,8 @@ Resultado do Quiz
 
 
 Roadmap
-![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-profissional/assets/161091067/ba2ef8ec-f1c0-46db-ac00-c63a92f9417f)
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-profissional/assets/161091067/6fd63b96-857c-4967-86e6-95f26d7a0cd6)
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-profissional/assets/161091067/d5a5b51f-5e76-4ac2-ae07-5d9ba8dd4cbb)
 
 
 ## Design
