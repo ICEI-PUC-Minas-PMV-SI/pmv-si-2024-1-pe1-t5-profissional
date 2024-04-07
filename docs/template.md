@@ -19,6 +19,7 @@ Resultado do Quiz
 
 Roadmap
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-profissional/assets/161091067/6fd63b96-857c-4967-86e6-95f26d7a0cd6)
+
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-profissional/assets/161091067/d5a5b51f-5e76-4ac2-ae07-5d9ba8dd4cbb)
 
 
@@ -47,9 +48,12 @@ Rótulos de componentes e Corpo de Texto.
 Fonte Montserrat 14 SemiBold
 ## Iconografia
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-profissional/assets/161091067/92d023cf-b123-417e-b4c4-5f72df2442e8)
+
+
 Para fazer referência a cada roadmap
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-profissional/assets/161091067/f1295e26-e99a-40a4-bce9-b2cc96fae1d7)
+
 
 Para fazer referência a foto
 
