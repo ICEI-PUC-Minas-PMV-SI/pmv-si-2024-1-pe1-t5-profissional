@@ -1,8 +1,25 @@
 # Template padrão do site
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-profissional/assets/161091067/4dc98eb6-43e9-48dc-9d25-5bd4bc025372)
 
-Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
+Quem Somos
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-profissional/assets/161091067/c7bf2841-e01c-42e3-b0f2-cf10e184485c)
 
-Explique as guias de estilo utilizadas no seu projeto.
+Tela de Login e Cadastro
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-profissional/assets/161091067/37e4d445-473d-4916-ba39-11acb575b87a)
+
+Págia Inicial já logada
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-profissional/assets/161091067/08d54d5b-b0be-420e-8861-9a482e713f25)
+
+
+Quiz 
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-profissional/assets/161091067/9a64b3ab-cef0-40b1-a3c5-30a372e7e54f)
+Resultado do Quiz
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-profissional/assets/161091067/b7fb8c5c-d280-4ec5-8649-8598f1bf97cf)
+
+
+Roadmap
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-profissional/assets/161091067/ba2ef8ec-f1c0-46db-ac00-c63a92f9417f)
+
 
 ## Design
 
@@ -10,27 +27,28 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 
 
 ## Cores
-
-Apresente a paleta de cores que será utilizada. Uma ferramenta interessante para a criação de palestas de cores é o *Adobe Color* ([https://color.adobe.com/pt/create/color-wheel](https://color.adobe.com/pt/create/color-wheel)).
+Navbar
+![NAVBAR](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-profissional/assets/161091067/d4394635-402c-412c-9563-3b18bb99b964)
+Cores do Site 
+![Cores Gerais](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-profissional/assets/161091067/5d4c388e-cf2c-4242-9baf-8a37ea0b7e76)
 
 
 ## Tipografia
 
-Apresente as fontes que serão utilizadas e sua função no site. As principais funções são: Título de página, Título de Seção, Rótulos de componentes e Corpo de Texto.
+Título de página
+Fonte Montserrat 40 Bold
 
+Título de Seção
+Quem Somos Fonte Montserrat 48 SemiBold
 
+Rótulos de componentes e Corpo de Texto.
+
+Fonte Montserrat 14 SemiBold
 ## Iconografia
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-profissional/assets/161091067/92d023cf-b123-417e-b4c4-5f72df2442e8)
+Para fazer referência a cada roadmap
 
-Defina os ícones que serão utilizados e suas respectivas funções.
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-profissional/assets/161091067/f1295e26-e99a-40a4-bce9-b2cc96fae1d7)
 
-Apresente os estilos CSS criados para cada um dos elementos apresentados.
-Outras seções podem ser adicionadas neste documento para apresentar padrões de componentes, de menus, etc.
+Para fazer referência a foto
 
-
-> **Links Úteis**:
->
-> -  [Como criar um guia de estilo de design da Web](https://edrodrigues.com.br/blog/como-criar-um-guia-de-estilo-de-design-da-web/#)
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
