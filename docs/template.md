@@ -6,6 +6,7 @@ Quem Somos
 
 Tela de Login e Cadastro
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-profissional/assets/161091067/37e4d445-473d-4916-ba39-11acb575b87a)
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-profissional/assets/161091067/4e224e95-f499-4a43-a2cb-7f5b0c13de51)
 
 Págia Inicial já logada
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-profissional/assets/161091067/08d54d5b-b0be-420e-8861-9a482e713f25)
