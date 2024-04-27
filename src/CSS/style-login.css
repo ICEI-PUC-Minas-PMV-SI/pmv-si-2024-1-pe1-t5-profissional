@@ -1,111 +1,97 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-image: url(../IMG/IMGjpgLOGIN.jpg);
-    background-size: cover;
+body{
+    background-image: url('../IMG/IMGjpgLOGIN.jpg');
     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 
-.wrapper {
-    width: 420px;
-    background: transparent
-    border: 2px solid rgba(255, 255, 255, .2);
-    backdrop-filter: blur(20px);
-    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
-    color: #fff;
-    border-radius: 10px;
-    padding: 30px 40px;
-}
-
-.wrapper h1 {
-    font-size: 36px;
-    text-align: center;
-    color: black;
-}
-
-.wrapper .input-box {
-    width: 100%;
-    height: 50px;
-    margin: 30px 0;
-}
-
-.input-box input {
-    width: 100%;
-    height: 100%;
-    background: transparent;
-    border: none;
-    outline: none;
-    border: 2px solid rgba(255, 255, 255, .2);
-    border-radius: 40px;
-    font-size: 16px;
-    color: #fff;
-    padding: 20px 45px 20px 20px;
-}
-
-.input-box input::placeholder {
-    color: black;
-}
-
-.wrapper .remember-password {
+.wrapper{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    backdrop-filter: blur(15px); /* Adiciona o desfoque no contêiner */
+    padding: 5rem;
+    box-shadow: 0 0 10px #515151;
     display: flex;
-    justify-content: flex-end;
-    font-size: 14.5px;
-    margin: -15px 0 15px;
+    flex-direction: column;
+    align-items: center;
+    height: 40rem;
+    border-radius: 20px;
 }
 
-.remember-password a {
-    color: black;
-    text-decoration: none;
-    font-weight: bold
-}
-
-.remember-password a:hover {
-    text-decoration: underline;
-}
-
-.wrapper .btn {
-    width: 100%;
-    height: 45px;
-    background: black;
-    border: none;
-    outline: none;
-    border-radius: 40px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
-    cursor: pointer;
-    font-size: 16px;
-    color: #fff;
-    font-weight: 600;
-}
-
-.wrapper .register-link {
-    font-size: 14.5px;
+.wrapper h2{
     text-align: center;
-    margin: 20px 0 15px;
-    color: black;
+    font-size: 35px;
+    padding-bottom: 2rem;
 }
 
-.register-link p a {
-    /* color: black;
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 2rem 0;
+    width: 350px;
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+}
+
+form input{
+    width: 300px;
+    height: 50px;
+    border-radius: 25px;
+    padding-left: 1rem;
+    background-color: transparent;
+    border: 1px solid rgb(146, 146, 146);
+}
+
+form input::placeholder{
+    color: #000;
+    font-size: 15px;
+}
+
+form button{
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+}
+
+#esqueceu-senha{
     text-decoration: none;
-    font-weight: 600; */
+    color: #000;
+    font-size: 13px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.membro-novo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.membro-novo a{
     background-color: #fff;
-    padding: 0.25rem 0.5rem;
-    border-radius: 10px;
+    color: #000;
     text-decoration: none;
-    color: black;
+    border-radius: 10px;
+    padding: 0.25rem;
 }
 
-.register-link p a:hover {
-    text-decoration: underline;
+.wrapper img{
+    padding-top: 1rem;
 }
