@@ -1,6 +1,79 @@
 body{
+    font-family: Arial, Helvetica, sans-serif;
     background-image: url(../IMG/IMGjpgCADASTRO1.jpg);
-    background-repeat: no-repeat;
-    background-size: 139%;
-    background-position: CENTER center;
+    background-size: 138%;
+    background-position: center;
+}
+h1{
+    padding: 10px;
+    font-size: 45px;
+    text-align: center;
+    font-family:  Arial, Helvetica, sans-serif
+}
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(221, 221, 221, 0.466);
+    padding: 36px;
+    width: 26%;
+    border-radius: 25px;
+    align-items: center;
+    display: flex;  
+}
+.inputbox{
+    position: relative;
+}
+
+.inputUser{
+    background-color: rgba(168, 165, 165, 0.356);
+    border-radius: 85px;
+    font-size: 25px;
+    width: 100%;
+    letter-spacing: 2px;  
+}
+.LabelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5px;
+
+}
+
+#submit{
+    border-radius: 50px;
+    color: #fff;
+    padding: 10px;
+    font-size: 25px;
+    width: 80%;
+    background-color: rgb(37, 3, 70);
+    cursor:pointer;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+#submit:hover{
+    background-color: rgb(129, 30, 221);
+}
+
+h3{ 
+    font-size: 12px; 
+    text-align: center;
+}
+button{
+    font-size: 12px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 5px;
+    cursor: pointer;
+    
+}
+.inputUser:focus ~ .LabelInput, 
+.inputUser:valid ~ .LabelInput{
+    top: -20px;
+    font-size: 12px;
+    
 }
