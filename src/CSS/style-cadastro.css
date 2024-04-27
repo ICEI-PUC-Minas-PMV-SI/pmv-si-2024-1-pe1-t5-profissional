@@ -1,79 +1,90 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: url(../IMG/IMGjpgCADASTRO1.jpg);
-    background-size: 138%;
-    background-position: center;
-}
-h1{
-    padding: 10px;
-    font-size: 45px;
-    text-align: center;
-    font-family:  Arial, Helvetica, sans-serif
-}
-.box{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(221, 221, 221, 0.466);
-    padding: 36px;
-    width: 26%;
-    border-radius: 25px;
-    align-items: center;
-    display: flex;  
-}
-.inputbox{
-    position: relative;
-}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
-.inputUser{
-    background-color: rgba(168, 165, 165, 0.356);
-    border-radius: 85px;
-    font-size: 25px;
-    width: 100%;
-    letter-spacing: 2px;  
-}
-.LabelInput{
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    pointer-events: none;
-    transition: .5px;
-
-}
-
-#submit{
-    border-radius: 50px;
-    color: #fff;
-    padding: 10px;
-    font-size: 25px;
-    width: 80%;
-    background-color: rgb(37, 3, 70);
-    cursor:pointer;
+*{
+    margin 0;
+    padding: 0;
     box-sizing: border-box;
-    text-align: center;
-    
-}
-#submit:hover{
-    background-color: rgb(129, 30, 221);
+    font-family: "Poppins", sans-serif;
 }
 
-h3{ 
-    font-size: 12px; 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(../IMG/IMGjpgCADASTRO1.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.wrapper{
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+
+}
+
+.wrapper h1 {
+font-size: 36px;
+text-align: center;
+color: black;
+
+}
+
+.wrapper .input-box {
+width: 100%;
+height: 50px;
+margin: 30px 0;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: black;
+    padding: 20px 45px 20px 20px
+}
+.input-box input::placeholder {
+color: black;
+}
+
+.wrapper p a{
+color: black;
+text-align: center;
+margin-top: 10px;
+font-weight: 650;
+}
+.wrapper p a:hoover{
+text-decoration: underline;
+}
+.wrapper p {
+    color: black;
     text-align: center;
 }
-button{
-    font-size: 12px;
+
+.btn{
+    font-size: 35px;
+    background-color: rgb(94, 1, 131);
     text-align: center;
-    background-color: #fff;
-    border-radius: 30px;
-    padding: 5px;
+    width: 100%;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 45px;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
     cursor: pointer;
-    
+    font-size: 18px;
+    font-weight: 600;
 }
-.inputUser:focus ~ .LabelInput, 
-.inputUser:valid ~ .LabelInput{
-    top: -20px;
-    font-size: 12px;
-    
-}
+
