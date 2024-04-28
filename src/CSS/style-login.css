@@ -1,13 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
-body{
+body {
     background-image: url('../IMG/IMGjpgLOGIN.jpg');
     background-position: center;
     background-size: cover;
@@ -15,28 +15,29 @@ body{
     height: 100vh;
 }
 
-.wrapper{
+.wrapper {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    background-color: rgba(217, 217, 217, 0.5); /* Cor cinza com transparência */
     backdrop-filter: blur(7px); /* Adiciona o desfoque no contêiner */
     padding: 5rem;
     box-shadow: 0 0 10px #515151;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 40rem;
+    height: 37rem;
     border-radius: 20px;
 }
 
-.wrapper h2{
+.wrapper h2 {
     text-align: center;
     font-size: 35px;
     padding-bottom: 2rem;
 }
 
-form{
+form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -47,21 +48,21 @@ form{
     border-bottom: 3px solid #000;
 }
 
-form input{
+form input {
     width: 300px;
     height: 50px;
     border-radius: 25px;
     padding-left: 1rem;
-    background-color: transparent;
-    border: 1px solid rgb(146, 146, 146);
+    background-color: #e3e0e0;
+    border: 1px solid rgb(196, 189, 189);
 }
 
-form input::placeholder{
+form input::placeholder {
     color: #000;
     font-size: 15px;
 }
 
-form button{
+form button {
     width: 150px;
     height: 50px;
     border-radius: 20px;
@@ -70,7 +71,7 @@ form button{
     font-weight: bold;
 }
 
-#esqueceu-senha{
+#esqueceu-senha {
     text-decoration: none;
     color: #000;
     font-size: 13px;
@@ -78,13 +79,13 @@ form button{
     align-self: flex-end;
 }
 
-.membro-novo{
+.membro-novo {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.membro-novo a{
+.membro-novo a {
     background-color: #fff;
     color: #000;
     text-decoration: none;
@@ -92,6 +93,6 @@ form button{
     padding: 0.25rem 0.5rem;
 }
 
-.wrapper img{
+.wrapper img {
     padding-top: 1rem;
 }
