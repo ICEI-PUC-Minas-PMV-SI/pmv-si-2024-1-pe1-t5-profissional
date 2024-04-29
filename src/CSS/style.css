@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: "Montserrat", sans-serif;
+    ;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 100vw;
+}
+
+header {
+    padding: 30px 10px;
+    background-color: #4276C3;
+    flex: 1 1 100vw;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 30px;
+}
+
+nav> :nth-child(1) {
+    flex-grow: 8;
+    background-color: #E6E6E6;
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px;
+    margin: 3px;
+}
+
+nav> :nth-child(2) {
+    flex-grow: 1;
+    margin-left: 3px;
+    padding: 30px 0;
+}
+
+nav> :nth-child(3) {
+    flex-grow: 1;
+}
+
+.login {
+    background-color: #170033;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 30px;
+}
+
+.criar-cadastro {
+    background-color: #170033;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 30px;
+}
+
+section {
+    padding: 30px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.titulo-banner {
+    padding-bottom: 25px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+p .banner-text {
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal
+}
+
+.banner {
+    justify-content: space-between;
+}
+
+.banner-text {
+    color: white;
+    width: 40%;
+    padding: 0 40px;
+}
+
+.banner-img {
+    width: 60%;
+    text-align: center;
+}
+
+main {
+    background-color: white;
+    flex: 1 1 100vw;
+}
+
+.roadmap-text {
+    width: 25%;
+    padding: 30px;
+}
+
+h1 .roadmap-text {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
