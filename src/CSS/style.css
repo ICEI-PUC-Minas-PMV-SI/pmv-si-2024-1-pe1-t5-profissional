@@ -110,4 +110,29 @@ h1 .roadmap-text {
     line-height: normal;
 }
 
+h3 .roadmap-card {
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+
+p .roadmap-card {
+    line-height: 2em;
+}
+
+.roadmap-card {
+    width: 25%;
+    background-color: #B6BBF2;
+    padding: 30px;
+    margin: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.titulo-card {
+    padding: 25px 0;
+}
+
+.img-card {
+    padding: 25px 0;
+    text-align: right;
+}
 
