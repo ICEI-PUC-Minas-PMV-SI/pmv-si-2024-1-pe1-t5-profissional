@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between; /* Distribui os itens horizontalmente */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    padding: 8px 10px;
+    background-color: #4276C3;
+    height: 70px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.user-info {
+    margin-left: auto; /* Move o conteúdo da user-info para a direita */
+    display: flex;
+    align-items: center;
+}
+
+.login {
+    background-color: #170033;
+    color: white;
+    padding: 12px 40px;
+    border-radius: 7px;
+    text-decoration: none;
+    position: fixed;
+    top: 10px; /* Distância do topo */
+    right: 20px; /* Distância da direita */
+    margin-top: 1px; /* Margem superior */
+    margin-right: 10px; /* Margem direita */
+    z-index: 999; /* Garante que o botão esteja acima de outros elementos */
+}
+
+.login:hover {
+    background-color: #2a005e; /* Altera a cor de fundo ao passar o mouse */
+}
+
+svg {
+    width: 44px;
+    height: 44px;
+    fill: #D9D9D9;
+    margin-left: 30px; /* Adiciona um espaço entre o texto e a imagem SVG */
+}
+.svg-blue {
+    position: fixed;
+    top: 10px;
+    left: 0;
+    z-index: 999;
+}
+
+header {
+    background-color: #4276C3; /* Cor de fundo do cabeçalho */
+    padding: 10px; /* Espaçamento interno */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+
+.dev-path-container {
+    display: flex;
+    position: fixed;
+    left: 10px; /* Ajuste a posição horizontal em relação ao lado esquerdo da tela */
+    top: 10px; /* Distância do topo */
+    margin-top: 3px; /* Adicione uma margem superior para alinhar com o SVG */
+}
+
+.dev-path-container h1 {
+    background-color: #E6E6E6;
+    color: #170033;
+    padding: 5px 3px;
+    border-radius: 30px;
+    text-decoration: none;
+    position: fixed;
+    top: 10px; /* Distância do topo */
+    left: 14%; /* Centraliza horizontalmente */
+    transform: translateX(-10%); /* Move o elemento 50% para a esquerda */
+    z-index: 999; /* Garante que o conteúdo esteja acima de outros elementos */
+    width: 1050px;
+    text-align: center;
+
+}
+
+
+
+.user-info {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    margin-top: 2px;
+    right: 170px; /* Distância da direita */
+    padding: 100px 30px;
+}
+.user-info p {
+    margin-right: 2px; 
+    color:#E6E6E6;
+}
+
+.user-info p span {
+    display: block; 
+    margin-bottom: 2px;
+
+}
+.quiz {
+    position: fixed;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%; /* Ajuste a largura conforme necessário */
+    max-width: 800px; /* Defina uma largura máxima */
+    height: 400px; /* Defina a altura desejada */
+    background-color: #f0f0f0;
+    padding: 70px;
+    border-radius: 10px;
+}
+
+
+.question {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.options {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.option {
+    margin-bottom: 10px;
+}
+
+.option input[type="radio"] {
+    margin-right: 10px;
+}
+
+
+
+footer {
+    display: flex;
+    background-color: #D9D9D9;
+    justify-content: space-between;
+    padding: 30px;
+    flex: 1 1 100vw;
+    align-items: center;
+    font-size: 15px;
+}
+p div footer{
+    font-size: 15px;
+}
+
+main {
+    margin-bottom: 564px; /* Adicione uma margem inferior correspondente à altura do footer */
+}
