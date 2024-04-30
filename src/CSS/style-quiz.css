@@ -9,8 +9,8 @@
 
 header {
     display: flex;
-    justify-content: space-between; /* Distribui os itens horizontalmente */
-    align-items: center; /* Alinha os itens verticalmente ao centro */
+    justify-content: space-between; 
+    align-items: center; 
     padding: 8px 10px;
     background-color: #4276C3;
     height: 70px;
@@ -22,7 +22,7 @@ nav {
 }
 
 .user-info {
-    margin-left: auto; /* Move o conteúdo da user-info para a direita */
+    margin-left: auto; 
     display: flex;
     align-items: center;
 }
@@ -34,22 +34,22 @@ nav {
     border-radius: 7px;
     text-decoration: none;
     position: fixed;
-    top: 10px; /* Distância do topo */
-    right: 20px; /* Distância da direita */
-    margin-top: 1px; /* Margem superior */
-    margin-right: 10px; /* Margem direita */
-    z-index: 999; /* Garante que o botão esteja acima de outros elementos */
+    top: 10px; 
+    right: 20px; 
+    margin-top: 1px; 
+    margin-right: 10px; 
+    z-index: 999; 
 }
 
 .login:hover {
-    background-color: #2a005e; /* Altera a cor de fundo ao passar o mouse */
+    background-color: #2a005e; 
 }
 
 svg {
     width: 44px;
     height: 44px;
     fill: #D9D9D9;
-    margin-left: 30px; /* Adiciona um espaço entre o texto e a imagem SVG */
+    margin-left: 30px;
 }
 .svg-blue {
     position: fixed;
@@ -59,8 +59,8 @@ svg {
 }
 
 header {
-    background-color: #4276C3; /* Cor de fundo do cabeçalho */
-    padding: 10px; /* Espaçamento interno */
+    background-color: #4276C3; 
+    padding: 10px; 
 }
 
 nav {
@@ -77,9 +77,9 @@ nav {
 .dev-path-container {
     display: flex;
     position: fixed;
-    left: 10px; /* Ajuste a posição horizontal em relação ao lado esquerdo da tela */
-    top: 10px; /* Distância do topo */
-    margin-top: 3px; /* Adicione uma margem superior para alinhar com o SVG */
+    left: 10px; 
+    top: 10px; 
+    margin-top: 3px; 
 }
 
 .dev-path-container h1 {
@@ -89,10 +89,10 @@ nav {
     border-radius: 30px;
     text-decoration: none;
     position: fixed;
-    top: 10px; /* Distância do topo */
-    left: 14%; /* Centraliza horizontalmente */
-    transform: translateX(-10%); /* Move o elemento 50% para a esquerda */
-    z-index: 999; /* Garante que o conteúdo esteja acima de outros elementos */
+    top: 10px; 
+    left: 14%; 
+    transform: translateX(-10%); 
+    z-index: 999; 
     width: 1050px;
     text-align: center;
 
@@ -105,7 +105,7 @@ nav {
     align-items: center;
     position: fixed;
     margin-top: 2px;
-    right: 170px; /* Distância da direita */
+    right: 170px; 
     padding: 100px 30px;
 }
 .user-info p {
@@ -123,9 +123,9 @@ nav {
     top: 44%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 80%; /* Ajuste a largura conforme necessário */
-    max-width: 800px; /* Defina uma largura máxima */
-    height: 400px; /* Defina a altura desejada */
+    width: 80%; 
+    max-width: 800px; 
+    height: 400px; 
     background-color: #f0f0f0;
     padding: 70px;
     border-radius: 10px;
