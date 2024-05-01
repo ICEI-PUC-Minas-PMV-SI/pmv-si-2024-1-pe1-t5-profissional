@@ -15,7 +15,7 @@ body {
 }
 
 header {
-    padding: 30px 10px;
+    padding: 15px 10px;
     background-color: #4276C3;
     flex: 1 1 100vw;
 }
@@ -23,34 +23,61 @@ header {
 nav {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    margin: 0 30px;
+    justify-content: space-between;
+    margin: 0 10px;
 }
 
 nav> :nth-child(1) {
-    flex-grow: 8;
+    flex-grow: 1;
+    align-items: center;
+}
+
+nav> :nth-child(2) {
+    flex-grow: 9;
     background-color: #E6E6E6;
     border-radius: 30px;
     text-align: center;
     padding: 10px;
-    margin: 3px;
-}
-
-nav> :nth-child(2) {
-    flex-grow: 1;
-    margin-left: 3px;
-    padding: 30px 0;
+    margin: 10px;
 }
 
 nav> :nth-child(3) {
+    flex-grow: 1;
+    padding: 30px 0;
+    display: flex;
+    margin: 0 20px;
+}
+
+svg {
+    width: 44px;
+    height: 44px;
+    fill: #D9D9D9;
+    margin-left: 30px;
+}
+
+nav> :nth-child(4) {
     flex-grow: 1;
 }
 
 .btn {
     background-color: #170033;
     color: white;
-    padding: 10px 15px;
-    border-radius: 30px;
+    padding: 12px 40px;
+    border-radius: 7px;
+    text-decoration: none;
+    top: 10px;
+    /* Distância do topo */
+    right: 20px;
+    /* Distância da direita */
+    margin-top: 1px;
+    /* Margem superior */
+    margin-right: 10px;
+    /* Margem direita */
+    z-index: 999;
+}
+
+.btn:hover {
+    background-color: #8891f2;
 }
 
 section {
@@ -124,12 +151,32 @@ p .roadmap-card {
     padding: 25px 0;
 }
 
+.link-roadmap {
+    display: flex;
+    justify-content: space-between;
+    margin: 20 0px;
+}
+
 .img-card {
     padding: 25px 0;
     text-align: right;
 }
 
-.acessar-quiz{
+.saiba-mais {
+    padding-top: 80px;
+}
+
+.btn .saiba-mais {
+    background-color: #170033;
+    padding: 10px;
+    color: white;
+    border-radius: 7px;
+    text-decoration: none;
+    margin: 30px;
+}
+
+
+.acessar-quiz {
     width: 100%;
     margin: 30px;
     align-items: center;
@@ -138,7 +185,8 @@ p .roadmap-card {
     font-size: 60px;
     font-weight: bold;
 }
-.box-acessar-quiz{
+
+.box-acessar-quiz {
     width: 100%;
     background: transparent;
     border-radius: 30px;
@@ -146,6 +194,7 @@ p .roadmap-card {
     text-align: center;
     padding: 100px;
 }
+
 footer {
     display: flex;
     background-color: #D9D9D9;
@@ -155,6 +204,7 @@ footer {
     align-items: center;
     font-size: 15px;
 }
-p div footer{
+
+p div footer {
     font-size: 15px;
 }
