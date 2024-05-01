@@ -46,11 +46,17 @@ nav> :nth-child(3) {
     flex-grow: 1;
 }
 
+
 .login {
     background-color: #170033;
     color: white;
     padding: 10px 15px;
     border-radius: 30px;
+    margin-left: 10px;
+}
+
+.login:hover {
+background-color: #8891f2;
 }
 
 .criar-cadastro {
@@ -58,6 +64,23 @@ nav> :nth-child(3) {
     color: white;
     padding: 10px 15px;
     border-radius: 30px;
+    margin-left: 10px;
+}
+
+.criar-cadastro:hover {
+    background-color: #8891f2;
+}
+
+.quem-somos {
+    background-color: #170033;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+
+.quem-somos:hover { 
+    background: #8891f2;
 }
 
 section {
@@ -136,16 +159,18 @@ p .roadmap-card {
     text-align: right;
 }
 
-.about-us-section {
+#about-us-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 50vh;
     text-align: center;
+    font-family: "Montserrat", sans-serif;
+    ;
   }
 
-  .about-us-section h2{
+  #about-us-section h2{
     background-color:#B6BBF2;
     border-radius: 30px;
     margin-bottom: 25px;
