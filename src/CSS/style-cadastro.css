@@ -9,15 +9,24 @@
 
 body {
 
-    justify-content: center;
-    align-items: center;
-    background-image: url(../IMG/IMGjpgCADASTRO1.jpg);
-    background-size: cover;
     height: 100vh;
     display: flex;
     flex-direction: column;
 
 }
+
+main {
+    background-image: url(../IMG/IMGjpgCADASTRO1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+    flex: 1 1 0;
+}
+
 
 .wrapper {
     width: 420px;
@@ -42,7 +51,6 @@ body {
     width: 100%;
     height: 50px;
     margin: 30px 0;
-    background-color: ;
 }
 
 .input-box input {
@@ -72,6 +80,11 @@ body {
 .wrapper p {
     color: black;
     text-align: center;
+}
+.wrapper img {
+    padding-top: 1rem; 
+    margin-left: 39%;
+    width: 35%;
 }
 
 .btn {
