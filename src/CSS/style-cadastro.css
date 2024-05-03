@@ -153,7 +153,7 @@ footer {
 }
 
 p div footer {
-    font-size: 15px;
+    font-size: 16px;
 }
 
 form {
@@ -164,6 +164,51 @@ form {
     width: 350px;
     border-top: 3px solid #000;
     border-bottom: 3px solid #000;
+}
+@media (max-width: 1000px) {
+    header h1 {
+        width: 75%;
+    }
+}
 
-    
+@media (max-width: 768px) {
+    footer {
+        display: grid;
+        gap: 15px;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .wrapper {
+        width: 25rem;
+    }
+
+    header h1 {
+        width: 90%;
+    }
+}
+@media (max-width: 450px) {
+    #login-link {
+        align-self: center;
+    }
+
+    .wrapper {
+        width: 20rem;
+        height: 35rem;
+        padding: 3rem;
+    }
+
+    .wrapper img {
+        display: none;
+    }
+
+    form {
+        width: 220px;
+    }
+
+    form input {
+        width: 200px;
+    }
 }
