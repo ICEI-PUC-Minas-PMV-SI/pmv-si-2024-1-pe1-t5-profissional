@@ -133,6 +133,21 @@ p div footer {
     font-size: 15px;
 }
 
+@media (max-width: 1000px) {
+    header h1 {
+        width: 75%;
+    }
+}
+
+@media (max-width: 768px) {
+    footer {
+        display: grid;
+        gap: 15px;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
 @media (max-width: 600px) {
     .wrapper {
         width: 25rem;
