@@ -50,10 +50,20 @@ nav> :nth-child(3) {
 .login {
     background-color: #170033;
     color: white;
-    padding: 10px 15px;
-    border-radius: 30px;
-    margin-left: 10px;
+    padding: 12px 40px;
+    border-radius: 7px;
+    text-decoration: none;
+    top: 10px;
+    /* Distância do topo */
+    right: 20px;
+    /* Distância da direita */
+    margin-top: 1px;
+    /* Margem superior */
+    margin-right: 10px;
+    /* Margem direita */
+    z-index: 999;
 }
+
 
 .login:hover {
 background-color: #8891f2;
@@ -62,9 +72,18 @@ background-color: #8891f2;
 .criar-cadastro {
     background-color: #170033;
     color: white;
-    padding: 10px 15px;
-    border-radius: 30px;
-    margin-left: 10px;
+    padding: 12px 40px;
+    border-radius: 7px;
+    text-decoration: none;
+    top: 10px;
+    /* Distância do topo */
+    right: 20px;
+    /* Distância da direita */
+    margin-top: 1px;
+    /* Margem superior */
+    margin-right: 10px;
+    /* Margem direita */
+    z-index: 999;
 }
 
 .criar-cadastro:hover {
@@ -74,10 +93,20 @@ background-color: #8891f2;
 .quem-somos {
     background-color: #170033;
     color: white;
-    padding: 10px 15px;
-    border-radius: 30px;
-    margin-left: 10px;
+    padding: 12px 40px;
+    border-radius: 7px;
+    text-decoration: none;
+    top: 10px;
+    /* Distância do topo */
+    right: 20px;
+    /* Distância da direita */
+    margin-top: 1px;
+    /* Margem superior */
+    margin-right: 10px;
+    /* Margem direita */
+    z-index: 999;
 }
+
 
 .quem-somos:hover { 
     background: #8891f2;
