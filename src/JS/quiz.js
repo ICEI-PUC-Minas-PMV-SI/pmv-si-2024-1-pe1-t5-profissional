@@ -160,7 +160,7 @@ sub7.addEventListener('click', function(){
 
 
 })
-
+/*teste */
 submit8.addEventListener('click', function(){
     nextQuestion(9);
 })
