@@ -13,8 +13,6 @@
 </head>
 <body>
         <header>
-            <div>
-                
                 <nav>
                     <div class="svg-blue">
                         <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
@@ -38,109 +36,177 @@
                     </div>
                 </nav>
             
-            </div>
         </header>
+
         <main>
-            <div class="container">	
-                <div class="row">
-                    <div class="two-thirds column">
-                    <h2>Teste</h2>
-            
-                    <div id="progress_bar"></div>
-                        <form class="questions_box">  
-                <div id="qu-1">
-                    <h2>Questão 1</h2>
-                        <h3>Como você prefere abordar a resolução de problemas?</h3>
-                        <input id="q1-resposta-A" type="radio" name="favelang" value=1>Desenvolvendo funcionalidades complexas para garantir o funcionamento perfeito (Desenvolvimento Back-End)<br>
-                        <input id="q1-resposta-B" type="radio" name="favelang" value=2>Organizando e gerenciando as informações para eficiência e fácil acesso (Administração de Banco de Dados)<br>
-                        <input id="q1-resposta-C" type="radio" name="favelang" value=3>Criando a aparência e a interatividade de websites ou aplicativos (Desenvolvimento Front-End)<br>
-                        <div id="submit1" class="button">Enviar Resposta</div>
-                <div class="clearfix"></div>
-                </div>    
-                
-                <div id="qu-2">
-                    <h2>Questão 2</h2>
-                        <h3>Suponha que você tenha a oportunidade de liderar um projeto de tecnologia do início ao fim. Qual aspecto desse projeto você consideraria mais gratificante?</h3>
-                        <input id="q1-resposta-A" type="radio" name="favelang" value="1">Ver a reação dos usuários diante de uma interface amigável e inovadora. (Experiência do Usuário)<br>
-                        <input id="q1-resposta-B" type="radio" name="favelang" value="2">Observar a evolução e crescimento dos dados conforme são processados e analisados. (Gestão de Dados)<br>
-                        <input id="q1-resposta-C" type="radio" name="favelang" value="3">Testemunhar o funcionamento eficiente e confiável de um sistema complexo e integrado. (Gerenciamento de Sistemas)<br>
-                        <div id="submit2" class="button">Enviar Resposta</div>
-                        <div class="clearfix"></div>
-                </div>
+                <div class="container">	
+                    <div class="row">
+                        <div class="two-thirds column">
+                        <h2>Quiz</h2>
+                        <div id="progress_bar"></div>
+                            <form class="questions_box">  
+                             
+                            <div id="qu-1" class="question">
+                                <h2>Questão 1</h2>
+                                    <h3>Como você prefere abordar a resolução de problemas?</h3>
+                                <div class="respostas">
+                                    
+                                    <input id="q1-resposta-A" type="radio" class="option" value=1>Desenvolvendo funcionalidades complexas para garantir o funcionamento perfeito (Desenvolvimento Back-End)<br>
+                                </div>
+                                <div class="respostas">
+                                    <input id="q1-resposta-B" type="radio" class="option" value=2>Organizando e gerenciando as informações para eficiência e fácil acesso (Administração de Banco de Dados)<br>
+                                </div>
+                                    <div class="respostas">    
+                                    <input id="q1-resposta-C" type="radio" class="option" value=3>Criando a aparência e a interatividade de websites ou aplicativos (Desenvolvimento Front-End)<br>
+                                </div>   
+                                    <div id="submit1" class="button">Enviar Resposta</div>
+                            <div class="clearfix"></div>
+                            </div>    
+                            
+                            <div id="qu-2" class="question">
+                                <h2>Questão 2</h2>
+                                    <h3>Suponha que você tenha a oportunidade de liderar um projeto de tecnologia do início ao fim. Qual aspecto desse projeto você consideraria mais gratificante?</h3>
+                                    <div class="respostas">
+                                        <input id="q1-resposta-A" type="radio" class="option" value="1">Ver a reação dos usuários diante de uma interface amigável e inovadora. (Experiência do Usuário)<br>
+                                    </div>    
+                                        <div class="respostas">
+                                         <input id="q1-resposta-B" type="radio" class="option" value="2">Observar a evolução e crescimento dos dados conforme são processados e analisados. (Gestão de Dados)<br>
+                                    </div>    
+                                         <div class="respostas">
+                                            <input id="q1-resposta-C" type="radio" class="option" value="3">Testemunhar o funcionamento eficiente e confiável de um sistema complexo e integrado. (Gerenciamento de Sistemas)<br>
+                                    </div>    
+                                            <div id="submit2" class="button">Enviar Resposta</div>
+                                    <div class="clearfix"></div>
+                            </div>
 
-                <div id="qu-3">
-                    <h2>Questão 3</h2>
-                        <h3>Imagine que você está construindo algo incrível na internet. Qual destas atividades te atrai mais?</h3>
-                        <input id="q1-resposta-A" type="radio" name="opcao" value="1">Desenvolver funcionalidades complexas para garantir o funcionamento perfeito (Desenvolvimento Back-End)<br>
-                        <input id="q1-resposta-B" type="radio" name="opcao" value="2">Organizar e gerenciar as informações para eficiência e fácil acesso (Administração de Banco de Dados)<br>
-                        <input id="q1-resposta-C" type="radio" name="opcao" value="3">Criar a aparência e a interatividade de websites ou aplicativos (Desenvolvimento Front-End)<br>
-                        <div id="submit3" class="button">Enviar Resposta</div>
-                        <div class="clearfix"></div>
-                </div>
+                            <div id="qu-3" class="question">
+                                <h2>Questão 3</h2>
+                                    <h3>Imagine que você está construindo algo incrível na internet. Qual destas atividades te atrai mais?</h3>
+                                    <div class="respostas">
+                                    <input id="q1-resposta-A" type="radio" class="option" value="1">Desenvolver funcionalidades complexas para garantir o funcionamento perfeito (Desenvolvimento Back-End)<br>
+                                    </div>
+                                    <div class="respostas">
+                                    <input id="q1-resposta-B" type="radio" class="option" value="2">Organizar e gerenciar as informações para eficiência e fácil acesso (Administração de Banco de Dados)<br>
+                                    </div>
+                                    <div class="respostas">
+                                    <input id="q1-resposta-C" type="radio" class="option" value="3">Criar a aparência e a interatividade de websites ou aplicativos (Desenvolvimento Front-End)<br>
+                                    </div>
+                                    <div id="submit3" class="button">Enviar Resposta</div>
+                                    <div class="clearfix"></div>
+                            </div>
 
-                <div id="qu-4">
-                    <h2>Questão 4</h2>
-                        <h3>Se você fosse resolver um quebra-cabeça complexo, qual abordagem você acharia mais interessante?</h3>
-                        <input id="q4-resposta-A" type="radio" name="opcao" value="1"> Desenvolvedor Front-End, criando a aparência e interatividade (Desenvolvimento Front-End)<br>
-                        <input id="q4-resposta-B" type="radio" name="opcao" value="2">Administrador de Banco de Dados, organizando e gerenciando informações (Administração de Banco de Dados)<br>
-                        <input id="q4-resposta-C" type="radio" name="opcao" value="3"> Desenvolvedor Back-End, criando funcionalidades complexas (Desenvolvimento Back-End)<br>
-                        <div id="submit4" class="button">Enviar Resposta</div>
-                        <div class="clearfix"></div>
-                </div>
+                            <div id="qu-4" class="question">
+                                <h2>Questão 4</h2>
+                                    <h3>Se você fosse resolver um quebra-cabeça complexo, qual abordagem você acharia mais interessante?</h3>
+                                    <div class="respostas">
+                                    <input id="q4-resposta-A" type="radio"  class="option" value="1"> Desenvolvedor Front-End, criando a aparência e interatividade (Desenvolvimento Front-End)<br>
+                                    </div>
+                                    <div class="respostas">
+                                    <input id="q4-resposta-B" type="radio"  class="option" value="2">Administrador de Banco de Dados, organizando e gerenciando informações (Administração de Banco de Dados)<br>
+                                    </div>
+                                    <div class="respostas">
+                                    <input id="q4-resposta-C" type="radio"  class="option" value="3"> Desenvolvedor Back-End, criando funcionalidades complexas (Desenvolvimento Back-End)<br>
+                                    </div>
+                                    <div id="submit4" class="button">Enviar Resposta</div>
+                                    <div class="clearfix"></div>
+                            </div>
 
-                <div id="qu-5">
-                    <h2>Questão 5</h2>
-                        <h3>Qual destas áreas tecnológicas mais desperta seu interesse?</h3>
-                        <input id="q5-resposta-A" type="radio" name="opcao" value="1">Desenvolvimento Web Front-End, focado em design de interfaces (Desenvolvimento Front-End)<br>
-                        <input id="q5-resposta-B" type="radio" name="opcao" value="2">Administração de Banco de Dados, organização eficiente de dados (Administração de Banco de Dados)<br>
-                        <input id="q5-resposta-C" type="radio" name="opcao" value="3">Desenvolvimento Web Back-End, lógica de programação e sistemas (Desenvolvimento Back-End)<br>
-                        <div id="submit5" class="button">Enviar Resposta</div>
-                        <div class="clearfix"></div>
-                </div>
+                            <div id="qu-5" class="question">
+                                <h2>Questão 5</h2>
+                                    <h3>Qual destas áreas tecnológicas mais desperta seu interesse?</h3>
+                                    <div class="respostas">
+                                    <input id="q5-resposta-A" type="radio"  class="option" value="1">Desenvolvimento Web Front-End, focado em design de interfaces (Desenvolvimento Front-End)<br>
+                                    </div>
+                                    <div class="respostas">
+                                    <input id="q5-resposta-B" type="radio"  class="option" value="2">Administração de Banco de Dados, organização eficiente de dados (Administração de Banco de Dados)<br>
+                                    </div>
+                                    <div class="respostas">
+                                    <input id="q5-resposta-C" type="radio"  class="option" value="3">Desenvolvimento Web Back-End, lógica de programação e sistemas (Desenvolvimento Back-End)<br>
+                                    </div>
+                                    <div id="submit5" class="button">Enviar Resposta</div>
+                                    <div class="clearfix"></div>
+                            </div>
 
-                <div id="qu-6">
-                    <h2>Questão 6</h2>
-                        <h3>Em qual tipo de projeto você se imagina trabalhando?</h3>
-                        <input id="q6-resposta-A" type="radio" name="opcao" value="1">Projetos centrados na experiência do usuário (Desenvolvimento Front-End)<br>
-                        <input id="q6-resposta-B" type="radio" name="opcao" value="2">Projetos centrados na organização eficiente e segura de dados (Administração de Banco de Dados)<br>
-                        <input id="q6-resposta-C" type="radio" name="opcao" value="3">Projetos inovadores e desafiadores de desenvolvimento (Desenvolvimento Back-End)<br>
-                        <div id="submit6" class="button">Enviar Resposta</div>
-                        <div class="clearfix"></div>
-                </div>
+                            <div id="qu-6" class="question">
+                                <h2>Questão 6</h2>
+                                    <h3>Em qual tipo de projeto você se imagina trabalhando?</h3>
+                                    <div class="respostas">
+                                    <input id="q6-resposta-A" type="radio"  class="option"" value="1">Projetos centrados na experiência do usuário (Desenvolvimento Front-End)<br>
+                                    </div>
+                                    <div class="respostas">
+                                    <input id="q6-resposta-B" type="radio"  class="option"value="2">Projetos centrados na organização eficiente e segura de dados (Administração de Banco de Dados)<br>
+                                    </div>
+                                    <div class="respostas">
+                                    <input id="q6-resposta-C" type="radio"  class="option" value="3">Projetos inovadores e desafiadores de desenvolvimento (Desenvolvimento Back-End)<br>
+                                    </div>
+                                    <div id="submit6" class="button">Enviar Resposta</div>
+                                    <div class="clearfix"></div>
+                            </div>
 
-                <div id="qu-7">
-                    <h2>Questão 7</h2>
-                        <h3>Se você fosse um personagem em uma equipe de heróis, qual seria o seu papel e por quê?</h3>
-                        <input id="q7-resposta-A" type="radio" name="opcao" value="1">Eu seria o Estrategista, traçando planos e estratégias para enfrentar desafios complexos e garantir o sucesso da missão. (Desenvolvimento Back-End)<br>
-                        <input id="q7-resposta-B" type="radio" name="opcao" value="2">Eu seria o Ágil e versátil, atuando rapidamente para implementar soluções criativas e inovadoras. (Desenvolvimento Front-End)<br>
-                        <input id="q7-resposta-C" type="radio" name="opcao" value="3">Eu seria o Guardião dos Dados, protegendo e gerenciando os recursos vitais do grupo para garantir sua integridade e disponibilidade. (Administração de Banco de Dados)<br>
-                        <div id="submit7" class="button">Enviar Resposta</div>
-                        <div class="clearfix"></div>
-                </div>
+                            <div id="qu-7" class="question">
+                                <h2>Questão 7</h2>
+                                    <h3>Se você fosse um personagem em uma equipe de heróis, qual seria o seu papel e por quê?</h3>
+                                    <div class="respostas">
+                                    <input id="q7-resposta-A" type="radio"   class="option" value="1">Eu seria o Estrategista, traçando planos e estratégias para enfrentar desafios complexos e garantir o sucesso da missão. (Desenvolvimento Back-End)<br>
+                                    </div>
+                                    <div class="respostas">
+                                    <input id="q7-resposta-B" type="radio"   class="option" value="2">Eu seria o Ágil e versátil, atuando rapidamente para implementar soluções criativas e inovadoras. (Desenvolvimento Front-End)<br>
+                                    </div>
+                                    <div class="respostas">
+                                    <input id="q7-resposta-C" type="radio"   class="option" value="3">Eu seria o Guardião dos Dados, protegendo e gerenciando os recursos vitais do grupo para garantir sua integridade e disponibilidade. (Administração de Banco de Dados)<br>
+                                    </div>
+                                    <div id="submit7" class="button">Enviar Resposta</div>
+                                    <div class="clearfix"></div>
+                            </div>
 
-                <div id="qu-8">
-                    <h2>Questão 8</h2>
-                        <h3>Se sua vida de estudante fosse um episódio de uma série, qual seria a cena mais marcante relacionada à tecnologia?</h3>
-                        <input id="q8-resposta-A" type="radio" name="opcao" value="1">Seria o momento em que você cria um site ou aplicativo para ajudar os colegas de classe a se organizarem melhor nos estudos. (Desenvolvimento Front-End)<br>
-                        <input id="q8-resposta-B" type="radio" name="opcao" value="2">Seria a cena em que você desenvolve um sistema automatizado para ajudar na correção de provas ou trabalhos dos professores. (Desenvolvimento Back-End)<br>
-                        <input id="q8-resposta-C" type="radio" name="opcao" value="3">Seria quando você implementa um sistema de armazenamento de notas e informações escolares que facilita o acesso e a segurança dos dados dos alunos. (Administração de Banco de Dados)<br>
-                        <div id="submit8" class="button">Enviar Resposta</div>
-                        <div class="clearfix"></div>
-                </div>
-                
-                <div id="qu-9"> 
-                    <h2>Obrigado por responder a pesquisa!</h2>
-                    <h3>Seu score de segurança é: </h3>
-                    <h1 id=printtotalscore></h1>
-                    <p id=printscoreinfo></p>
-         
-                </div>
-            
-            </form>
-        
+                            <div id="qu-8" class="question">
+                                <h2>Questão 8</h2>
+                                    <h3>Se sua vida de estudante fosse um episódio de uma série, qual seria a cena mais marcante relacionada à tecnologia?</h3>
+                                    <div class="respostas">
+                                    <input id="q8-resposta-A" type="radio"  class="option" value="1">Seria o momento em que você cria um site ou aplicativo para ajudar os colegas de classe a se organizarem melhor nos estudos. (Desenvolvimento Front-End)<br>
+                                    </div>
+                                    <div class="respostas">
+                                    <input id="q8-resposta-B" type="radio"  class="option" value="2">Seria a cena em que você desenvolve um sistema automatizado para ajudar na correção de provas ou trabalhos dos professores. (Desenvolvimento Back-End)<br>
+                                    </div>
+                                    <div class="respostas">                                    
+                                    <input id="q8-resposta-C" type="radio"  class="option" value="3">Seria quando você implementa um sistema de armazenamento de notas e informações escolares que facilita o acesso e a segurança dos dados dos alunos. (Administração de Banco de Dados)<br>
+                                    </div>
+                                    <div id="submit8" class="button">Enviar Resposta</div>
+                                    <div class="clearfix"></div>
+                            </div>
+                            
+                            <div id="qu-9" class="question"> 
+                                <h2>Obrigado por responder o Quiz!</h2>
+                                <h3>O seu Roadmap é: </h3><br>
+                                <h1>Desenvolvimento Web</h1>
+                                 
+                            </div>
+                             <div id="grafico">
+                                <image src="IMG/IMGjpgGRAFICO.png" width="200" height="200" />
+                            </div>
+                           
+                            
+                            <div id="questions_nav">
+                                <div class="ball" onclick="selectBall(1)"></div>
+                                <div class="ball" onclick="selectBall(2)"></div>
+                                <div class="ball" onclick="selectBall(3)"></div>
+                                <div class="ball" onclick="selectBall(4)"></div>
+                                <div class="ball" onclick="selectBall(5)"></div>
+                                <div class="ball" onclick="selectBall(6)"></div>
+                                <div class="ball" onclick="selectBall(7)"></div>
+                                <div class="ball" onclick="selectBall(8)"></div>
+                            </div>
+
+                        </form>
+                             
+                    </div>
                 </div>
             </div>
-        </div>
+            <a href="map-front.html">
+            <div id="pic">
+                <image src="IMG/IMGpngFRONTend.png" width="200" height="200" />
+            </div>  
+        </a>
         </main>
 
     <footer>
