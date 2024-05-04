@@ -165,8 +165,7 @@ submit8.addEventListener('click', function(){
     document.getElementById('grafico').style.display = 'block';
     document.getElementById('questions_nav').style.display = 'none';
     document.getElementById('pic').style.display = 'block';
-
-
+    document.getElementById('progress_bar').style.display = 'none';
 
 })
 
