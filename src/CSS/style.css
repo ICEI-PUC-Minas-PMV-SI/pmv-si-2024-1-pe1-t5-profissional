@@ -257,10 +257,19 @@ p .roadmap-card {
 
   .descricao a {
     color:white;
+    margin-left: 5px;
+    
   }
 
   .descricao a:hover{
-    color:  #B6BBF2
+    color:  #B6BBF2;
+    font-size: 17px;
+  }
+ 
+  .descricao img{
+    width: 15px;
+    margin-right: 4px;
+    margin-top: 3px;
   }
 
   footer {
