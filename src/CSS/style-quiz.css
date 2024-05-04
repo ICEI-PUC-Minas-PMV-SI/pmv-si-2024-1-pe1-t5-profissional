@@ -7,19 +7,38 @@
     font-family: "Montserrat", sans-serif;
 }
 
-header {
-    display: flex;
-    justify-content: space-between; 
-    align-items: center; 
-    padding: 8px 10px;
-    height: 70px;
-    background-color: #4276C3;
 
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #4276C3; 
+    z-index: 999; 
+    padding: 30px 50px; 
+}
+
+.dev-path-container {
+    display: flex;
+    align-items: center;
+}
+
+.dev-path-container h1 {
+    color: #fff; 
+    margin: 0; 
+    padding: 0 10px;
 }
 
 nav {
     display: flex;
     align-items: center;
+    
     
 
 }
@@ -69,7 +88,8 @@ svg {
     position: fixed;
     left: 10px; 
     top: 10px; 
-    margin-top: 3px; 
+    margin-top: 3px;
+     
 }
 
 .dev-path-container h1 {
@@ -85,6 +105,7 @@ svg {
     z-index: 999; 
     width: 1050px;
     text-align: center;
+    
 
 }
 
@@ -97,6 +118,7 @@ svg {
     margin-top: 2px;
     right: 170px; 
     padding: 100px 30px;
+    
 }
 .user-info p {
     margin-right: 2px; 
@@ -109,13 +131,13 @@ svg {
 
 }
 .quiz {
-    position: fixed;
-    top: 44%;
+    position: flex;
+    top: 4%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%; 
     max-width: 800px; 
-    height: 100px; 
+    height: 10px; 
     background-color: #f0f0f0;
     padding: 70px;
     border-radius: 10px;
@@ -124,7 +146,7 @@ svg {
 
 .qu {
     font-size: 15px;
-    margin-bottom: 60px;
+    margin-bottom: 0px;
 }
 
  
@@ -231,11 +253,13 @@ main {
   .container {
     width: 100%;
     max-width: 800px;
-    margin: 60px auto;
+    margin: 90px auto;
     background-color: rgb(25, 158, 195);
     background-image: url('../IMG/IMGpngFUNDOquiz.png');
     background-size: cover;
-
+    /*para saber onde está a div do container do quiz
+    border: solid black 2px;
+    */
     padding: 40px;
     border-radius: 15px;
     position: relative; 
@@ -297,9 +321,67 @@ main {
 }
 #pic {
     position: absolute;
-    top: 38%;
+    top: 24%;
     transform: translateY(-50%);
-    right: 200px; 
-    left: 50%;
+    right: 1000px; 
+    left: 60%;
     transform: translateX(-50%);
+}
+
+@media screen and (max-width: 1280px) {
+    
+  
+
+     .svg-blue,.dev-path-container{
+        display: none;
+
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .user-info h1 {
+        font-size: 1.5rem; 
+        padding: 5px; 
+        border-radius: 15px; 
+        width: auto; 
+        left: 50%; 
+        transform: translateX(-50%); 
+    }
+    footer{
+        font-size: 0.4rem; 
+        padding: 5px;
+        width: auto; 
+    }
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        margin: 50px auto;
+        padding: 20px; 
+        border-radius: 10px; 
+    }
+
+    #pic img{
+            max-width: 100%;
+            height: auto;
+            min-height: 250px; 
+            min-width: 250px; 
+            padding: 50px;
+            margin-right: 20px; 
+
+        
+    }
+ 
+    
+}
+
+
+
+@media (max-width: 1320px) {
+    #grafico {
+        margin-left: 20px; 
+    }
 }
