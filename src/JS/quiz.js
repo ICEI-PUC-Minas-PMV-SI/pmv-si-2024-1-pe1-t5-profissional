@@ -74,7 +74,7 @@ function totalScore(){
 
 
 function pegarInfoBaseadoNoScore(){
-    if(totalScore()< 7){
+    if(totalScore() < 7){
         var score_info = "Vocé é dev";
 
     } else if (totalScore()> 7){
@@ -98,23 +98,23 @@ var sub8 = document.getElementById('submit8');
 
 
 function proximaQuestao(numero_questao){
-    var atual_numero_questao = numero_questao - 1;
-    var numero_questao = numero_questao.toString();
-    var atual_numero_questao =  atual_numero_questao.toString();
+  
+    var elemento = document.getElementById('qu-' + numero_questao);
+    var questions = document.querySelectorAll('.question');
+    
+    questions.forEach(function(question) {
+        question.style.display = 'none';
+    });
 
-    var elemento1 = document.getElementById('qu-' + numero_questao);
-    var elemento2 = document.getElementById('qu-' + atual_numero_questao);
+    elemento.style.display = "block";
 
-
-    elemento1.style.display = "block";
-    elemento2.style.display = "none";
    
 }
 
 
 sub1.addEventListener('click', function(){
     proximaQuestao(2);
-    growProgressBar('5%');
+    growProgressBar('20%');
 
 
 })
@@ -160,10 +160,16 @@ sub7.addEventListener('click', function(){
 
 
 })
-/*teste */
 submit8.addEventListener('click', function(){
-    nextQuestion(9);
+    proximaQuestao(9);
+    document.getElementById('grafico').style.display = 'block';
+    document.getElementById('questions_nav').style.display = 'none';
+    document.getElementById('pic').style.display = 'block';
+    document.getElementById('progress_bar').style.display = 'none';
+
 })
+
+
 
 submit8.addEventListener('click', function(){
     document.getElementById("printtotalscore").innerHTML = totalScore();
@@ -177,4 +183,31 @@ function growProgressBar(percentage_width){
 
 
 
+
+
+/*Funções para as bolinhas na parte inferior */
+
+
+function selectBall(ballNumber) {
+    var balls = document.querySelectorAll('.ball');
+    balls.forEach(function(ball) {
+        ball.classList.remove('selected');
+    });
+
+    var selectedBall = document.querySelector('.ball:nth-child(' + ballNumber + ')');
+    selectedBall.classList.add('selected');
+
+    proximaQuestao(ballNumber);
+
+    if (ballNumber > 1) {
+        var previousQuestion = document.getElementById('qu-' + (ballNumber - 1));
+        previousQuestion.style.display = 'none';
+    }
+}
+
+document.querySelectorAll('.ball').forEach(function(ball, index) {
+    ball.addEventListener('click', function() {
+        selectBall(index + 1);
+    });
+});
 
