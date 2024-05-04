@@ -37,7 +37,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
 | Id             | Texto             | Identificador único da pergunta           | 1                                              |
-| Título         | Texto             | Enunciado da pergunta                     |Como você prefere abordar a resolução de problemas? |
+| Pergunta         | Texto             | Enunciado da pergunta                     |Como você prefere abordar a resolução de problemas? |
 | Alternativa 1  | Texto             | Conteúdo da 1º alternativa                |Desenvolvendo funcionalidades complexas para garantir o funcionamento perfeito (Desenvolvimento Back-End) |  
 | Alternativa 2  | Texto             | Conteúdo da 2º alternativa                |Organizando e gerenciando as informações para eficiência e fácil acesso (Administração de Banco de Dados) |   
 | Alternativa 3  | Texto             | Conteúdo da 3º alternativa                |Criando a aparência e a interatividade de websites ou aplicativos (Desenvolvimento Front-End) |   
