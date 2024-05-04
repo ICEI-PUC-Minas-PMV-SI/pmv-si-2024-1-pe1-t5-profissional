@@ -29,7 +29,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |------|------------------------|------------|-----------------|
 |RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | João | index.html |
 |RF-002| A aplicação deve permitir a emissão de um relatório de tarefas realizadas no mês | Ana Paula | cadastro-noticia.html |
-|RF-003| A aplicação deve permitir que o usuário preencha o quiz para saber seu roadmap ou a área que ele possa ter mais afinidade|
+|RF-003| A aplicação deve permitir que o usuário preencha o quiz para saber seu roadmap ou a área que ele possa ter mais afinidade| Ana Clara Rodrigues| quiz.html|
 
 ## Descrição das estruturas:
 
