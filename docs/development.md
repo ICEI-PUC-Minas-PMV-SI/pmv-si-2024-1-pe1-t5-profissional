@@ -29,8 +29,20 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |------|------------------------|------------|-----------------|
 |RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | João | index.html |
 |RF-002| A aplicação deve permitir a emissão de um relatório de tarefas realizadas no mês | Ana Paula | cadastro-noticia.html |
+|RF-003| A aplicação deve permitir que o usuário preencha o quiz para saber seu roadmap ou a área que ele possa ter mais afinidade|
 
 ## Descrição das estruturas:
+
+## Quiz
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| Id             | Texto             | Identificador único da pergunta           | 1                                              |
+| Título         | Texto             | Enunciado da pergunta                     |Como você prefere abordar a resolução de problemas? |
+| Alternativa 1  | Texto             | Conteúdo da 1º alternativa                |Desenvolvendo funcionalidades complexas para garantir o funcionamento perfeito (Desenvolvimento Back-End) |  
+| Alternativa 2  | Texto             | Conteúdo da 2º alternativa                |Organizando e gerenciando as informações para eficiência e fácil acesso (Administração de Banco de Dados) |   
+| Alternativa 3  | Texto             | Conteúdo da 3º alternativa                |Criando a aparência e a interatividade de websites ou aplicativos (Desenvolvimento Front-End) |   
+
+
 
 ## Notícia
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
