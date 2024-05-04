@@ -15,7 +15,7 @@ body {
 }
 
 header {
-    padding: 30px 10px;
+    padding: 15px 10px;
     background-color: #4276C3;
     flex: 1 1 100vw;
 }
@@ -23,26 +23,40 @@ header {
 nav {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    margin: 0 30px;
+    justify-content: space-between;
+    margin: 0 10px;
 }
 
+
 nav> :nth-child(1) {
-    flex-grow: 8;
+    flex-grow: 1;
+    align-items: center;
+}
+
+nav> :nth-child(2) {
+    flex-grow: 9;
     background-color: #E6E6E6;
     border-radius: 30px;
     text-align: center;
     padding: 10px;
-    margin: 3px;
-}
-
-nav> :nth-child(2) {
-    flex-grow: 1;
-    margin-left: 3px;
-    padding: 30px 0;
+    margin: 10px;
 }
 
 nav> :nth-child(3) {
+    flex-grow: 1;
+    padding: 30px 0;
+    display: flex;
+    margin: 0 20px;
+}
+
+svg {
+    width: 44px;
+    height: 44px;
+    fill: #D9D9D9;
+    margin-left: 30px;
+}
+
+nav> :nth-child(4) {
     flex-grow: 1;
 }
 
@@ -188,22 +202,65 @@ p .roadmap-card {
     text-align: right;
 }
 
-#about-us-section {
+#quem-somos {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    height: 30vh;
     text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
     font-family: "Montserrat", sans-serif;
-    ;
   }
 
-  #about-us-section h2{
-    background-color:#B6BBF2;
+  #quem-somos h2{
+    background-color: #170033;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+  }
+
+  .grupo{
+    background-color: #2e0361;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius:7px;
+    height: 400px;
+  }
+
+  .integrantes{
+    width: 50%;
+    background-color: #B6BBF2;
+    padding: 20px;
+    margin: 20px;
     border-radius: 30px;
-    margin-bottom: 25px;
-    padding: 10px 15px;
+  }
+
+  .foto{
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .foto img{
+    border-radius: 7px;
+  }
+
+  .descricao{ 
+    text-align: center;
+    padding: 10px;
+    background-color: #29579c;
+    color: white;
+    border-radius: 7px;
+  }
+
+  .descricao a {
+    color:white;
+  }
+
+  .descricao a:hover{
+    color:  #B6BBF2
   }
 
   footer {
@@ -211,6 +268,7 @@ p .roadmap-card {
     background-color: #D9D9D9;
     justify-content: space-between;
     padding: 30px;
+    margin-top: 20px;
     flex: 1 1 100vw;
     align-items: center;
     font-size: 15px;
