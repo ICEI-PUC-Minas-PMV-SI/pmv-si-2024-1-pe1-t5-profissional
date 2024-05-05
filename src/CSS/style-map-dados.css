@@ -107,6 +107,7 @@ p .banner-text {
     color: white;
     width: 40%;
     padding: 0 40px;
+    text-align: justify;
 }
 
 .banner-img {
@@ -142,10 +143,15 @@ main {
     font-weight: bold;
 }
 
+.roadmap-links{
+    padding: 20px;
+}
+
 
 .roadmap-links a{
-    padding: 10px;
     color: #D9D9D9;
+    text-decoration: underline;
+    line-height: 1.5em;
 }
 
 .accordions-front {
@@ -200,9 +206,16 @@ main {
 .accordion-body.active {
     height: 100%;
     opacity: 1;
-    padding: 5px 0px;
 }
 
+.accordion-body-links{
+    padding: 20px;
+}
+.accordion-body-links a{
+    color: #D9D9D9;
+    text-decoration: underline;
+    line-height: 1.5em;
+}
 .arrow {
     transition: transform .2s linear;
 }
