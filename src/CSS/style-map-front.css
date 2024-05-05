@@ -255,6 +255,13 @@ p div footer {
 }
 
 @media (max-width: 768px) {
+    .frameworks div {
+        width: 50%;
+        border-radius: 800px;
+        padding: 10px 15px;
+    }
+}
+@media (max-width: 768px) {
     .banner-img {
       width: 100%; 
     }
@@ -276,11 +283,9 @@ p div footer {
         border-radius: 800px;
         padding: 100px 60px;
     }
-    footer {
-        display: grid;
-        gap: 15px;
-        justify-content: center;
-        text-align: center;
-        width: 100vw;
+    footer{
+        font-size: 0.4rem; 
+        padding: 5px;
+        width: auto; 
     }
   }

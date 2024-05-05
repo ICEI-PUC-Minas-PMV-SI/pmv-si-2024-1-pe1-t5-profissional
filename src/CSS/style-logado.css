@@ -119,9 +119,11 @@ main {
 }
 
 .roadmap-text {
-    width: 25%;
-    padding: 30px;
+    width: 50%;
+    /* Adjust based on desired layout */
+    padding: 20px;
 }
+
 
 h1 .roadmap-text {
     font-size: 40px;
@@ -140,11 +142,12 @@ p .roadmap-card {
 }
 
 .roadmap-card {
-    width: 25%;
+    width: calc(33.33% - 40px);
+    /* Accounts for margins */
     background-color: #B6BBF2;
-    padding: 30px;
-    margin: 30px;
-    border-bottom-right-radius: 30px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 30px;
 }
 
 .titulo-card {
@@ -210,8 +213,36 @@ p div footer {
 }
 
 @media (max-width: 768px) {
-   
     .banner-img {
-      width: 100%; 
+        width: 100%;
     }
+    footer{
+        font-size: 0.4rem; 
+        padding: 5px;
+        width: auto; 
+    }
+}
+
+@media (max-width: 1500px) {
+    .roadmap-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .roadmap-text {
+        width: 100%;
+        /* 100% width on smaller screens */
+    }
+
+    .roadmap-card {
+        width: 100%;
+        /* 100% width on smaller screens */
+        margin: 10px;
+        /* Adjust margins if needed */
+    }
+    .btn{
+        padding: 10px 20px;
+        font-size: 30px;
+    }
+
 }
