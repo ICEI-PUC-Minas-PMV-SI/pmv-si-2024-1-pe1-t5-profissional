@@ -81,3 +81,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 | Alternativa 2     | Char (1)            | Resposta da pergunta                      | Desenvolvendo funcionalidades complexas para garantir o funcionamento perfeito (Desenvolvimento Back-End)     |
 | Alternativa 3     | Char (1)            | Resposta da pergunta                      | Criando a aparência e a interatividade de websites ou aplicativos (Desenvolvimento Front-End)     |
 
+## Cadastro de usuário
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
+|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
+| Id             | String  | Nome do estudante        | Marcos Paulo                                       |
+| Email         | String            | Endereço de e-mail do usuário                      | marcos.paulo@gmail.com                                 |
+| Senhar     | Varchar (25)            | Senha para criação e acesso de login                   | 1234Senha                                   |                             
+
