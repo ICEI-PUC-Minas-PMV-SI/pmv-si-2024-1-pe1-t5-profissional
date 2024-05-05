@@ -77,5 +77,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
 | Id             | INT  | Identificador de página          | Primeira  parte do quiz                                          |
 | Pergunta         | String            | Pergunta do quiz                        | Como você prefere abordar a resolução de problemas?                                 |
-| Resposta     | Char (1)            | Resposta da pergunta                      | Organizando e gerenciando as informações para eficiência e fácil acesso (Administração de Banco de Dados)                           |
+| Alternativa 1     | Char (1)            | Resposta da pergunta                      | Organizando e gerenciando as informações para eficiência e fácil acesso (Administração de Banco de Dados)
+| Alternativa 2     | Char (1)            | Resposta da pergunta                      | Desenvolvendo funcionalidades complexas para garantir o funcionamento perfeito (Desenvolvimento Back-End)     |
+| Alternativa 3     | Char (1)            | Resposta da pergunta                      | Criando a aparência e a interatividade de websites ou aplicativos (Desenvolvimento Front-End)     |
 
