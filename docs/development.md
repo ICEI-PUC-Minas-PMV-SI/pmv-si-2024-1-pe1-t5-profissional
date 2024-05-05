@@ -30,9 +30,27 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-001| A aplicação deve permitir a navegação para página de fazer login | Natã | index.html |
 |RF-002| A aplicação deve permitir a navegação para página de fazer cadastro | Natã | index.html |
 |RF-003| A aplicação deve permitir a navegação para sessão "quem somos" | Natã | index.html |
-|RF-004| A aplicação deve permitir a navegação para o LinkedIn de cada integrante  | Natã | index.html |
-|RF-005| A aplicação deve permitir que o a inserção de Nome,Email e Senha | Lucas | criar-cadastro.html |
-|RF-006| A aplicação deve permitir a criação de usuário | Lucas | criar-cadastro.html |
+|RF-004| A aplicação deve permitir a navegação para o envio de email no footer | Natã | index.html |
+|RF-005| A aplicação deve permitir a navegação para o LinkedIn de cada integrante  | Natã | index.html |
+|RF-006| A aplicação deve permitir a criação de usuário por Nome,Email e Senha | Lucas | criar-cadastro.html |
+|RF-007| A aplicação deve permitir a navegação para página de fazer login | Lucas | criar-cadastro.html |
+|RF-010| A aplicação deve permitir a navegação para o envio de email no footer | Lucas | criar-cadastro.html |
+|RF-011| A aplicação deve permitir a inserção de login por Email e Senha | João | fazer-log.html |
+|RF-012| A aplicação deve permitir a navegação para página de fazer cadastro  | João | fazer-log.html |
+|RF-013| A aplicação deve permitir a navegação para o envio de email no footer | João | fazer-log.html |
+|RF-014| A aplicação deve permitir a navegação para primeira página deslogada  | Leandra | usu-logado.html |
+|RF-015| A aplicação deve permitir a navegação para página de cada roadmap (front-end, back-end e data-science) | Leandra | usu-logado.html |
+|RF-016| A aplicação deve permitir a navegação para o envio de email no footer | Leandra | usu-logado.html |
+|RF-017| A aplicação deve permitir a navegação para o a página do quiz | Leandra | usu-logado.html |
+
+
+
+
+
+
+
+
+
 
 ## Descrição das estruturas:
 
