@@ -248,6 +248,38 @@ footer {
     font-size: 15px;
 }
 
-p div footer {
-    font-size: 15px;
+@media (max-width: 768px) {
+    .frameworks div {
+        width: 50%;
+        border-radius: 800px;
+        padding: 10px 15px;
+    }
 }
+@media (max-width: 768px) {
+    .banner-img {
+      width: 100%; 
+    }
+
+    .conceitos-basicos{
+        width: 50vw;
+    }
+    .accordion{
+        width: 100vw;
+        margin: 20px;
+        
+    }
+    .accordions-front{
+        display: flex;
+        flex-direction: column;
+    }
+    .frameworks div {
+        width: 50%;
+        border-radius: 800px;
+        padding: 100px 60px;
+    }
+    footer{
+        font-size: 0.4rem; 
+        padding: 5px;
+        width: auto; 
+    }
+  }
