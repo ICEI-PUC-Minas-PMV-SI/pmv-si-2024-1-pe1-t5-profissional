@@ -42,6 +42,24 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-015| A aplicação deve permitir a navegação para página de cada roadmap (front-end, back-end e data-science) | Leandra | usu-logado.html |
 |RF-016| A aplicação deve permitir a navegação para o envio de email no footer | Leandra | usu-logado.html |
 |RF-017| A aplicação deve permitir a navegação para o a página do quiz | Leandra | usu-logado.html |
+|RF-018| A aplicação deve permitir a seleção entre três opções das oito perguntas  | Ana | quiz.html |
+|RF-019| A aplicação deve permitir a navegação para primeira página deslogada  | Ana | quiz.html |
+|RF-020| A aplicação deve permitir a navegação para o envio de email no footer | Ana | quiz.html |
+|RF-021| A aplicação deve permitir a navegação para a página de roadmap sugerido após o envio de todas respostas | Ana | quiz.html |
+|RF-019| A aplicação deve permitir a navegação para primeira página deslogada  | Anna | map-dados.html |
+|RF-020| A aplicação deve permitir a navegação para o envio de email no footer | Anna | map-dados.html |
+|RF-021| A aplicação deve permitir a navegação para a playlist ou vídeo aula indicada ao usuário | Anna | map-dados.html |
+|RF-022| A aplicação deve permitir a navegação para primeira página deslogada  | Natã | map-back.html |
+|RF-023| A aplicação deve permitir a navegação para o envio de email no footer | Natã | map-back.html |
+|RF-024| A aplicação deve permitir a navegação para a playlist ou vídeo aula indicada ao usuário |  Natã | map-back.html |
+|RF-025| A aplicação deve permitir a navegação para primeira página deslogada  | Leandra | map-front.html |
+|RF-026| A aplicação deve permitir a navegação para o envio de email no footer | Leandra | map-front.html |
+|RF-027| A aplicação deve permitir a navegação para a playlist ou vídeo aula indicada ao usuário | Leandra | map-front.html |
+
+
+
+
+
 
 
 
