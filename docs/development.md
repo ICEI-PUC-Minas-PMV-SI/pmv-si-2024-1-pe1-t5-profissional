@@ -27,8 +27,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 |ID    | Descrição do Requisito | Responsável | Artefato Criado |
 |------|------------------------|------------|-----------------|
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | João | index.html |
-|RF-002| A aplicação deve permitir a emissão de um relatório de tarefas realizadas no mês | Ana Paula | cadastro-noticia.html |
+|RF-001| A aplicação deve permitir a navegação para página de fazer login | Natã | index.html |
+|RF-002| A aplicação deve permitir a navegação para página de fazer cadastro | Natã | index.html |
+|RF-003| A aplicação deve permitir a navegação para sessão "quem somos" | Natã | index.html |
+|RF-004| A aplicação deve permitir a navegação para o LinkedIn de cada integrante  | Natã | index.html |
+|RF-005| A aplicação deve permitir que o a inserção de Nome,Email e Senha | Lucas | criar-cadastro.html |
+|RF-006| A aplicação deve permitir a criação de usuário | Lucas | criar-cadastro.html |
 
 ## Descrição das estruturas:
 
