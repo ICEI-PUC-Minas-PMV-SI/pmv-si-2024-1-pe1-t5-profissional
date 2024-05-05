@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: "Montserrat", sans-serif;
+    ;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 100vw;
+}
+
+header {
+    padding: 15px 10px;
+    background-color: #4276C3;
+    flex: 1 1 100vw;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+nav> :nth-child(1) {
+    flex-grow: 1;
+    align-items: center;
+}
+
+nav> :nth-child(2) {
+    flex-grow: 9;
+    background-color: #E6E6E6;
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+nav> :nth-child(3) {
+    flex-grow: 1;
+    padding: 30px 0;
+    display: flex;
+    margin: 0 20px;
+}
+
+svg {
+    width: 44px;
+    height: 44px;
+    fill: #D9D9D9;
+    margin-left: 30px;
+}
+
+nav> :nth-child(4) {
+    flex-grow: 1;
+}
+
+.btn {
+    background-color: #170033;
+    color: white;
+    padding: 12px 40px;
+    border-radius: 7px;
+    text-decoration: none;
+    top: 10px;
+    /* Distância do topo */
+    right: 20px;
+    /* Distância da direita */
+    margin-top: 1px;
+    /* Margem superior */
+    margin-right: 10px;
+    /* Margem direita */
+    z-index: 999;
+}
+
+.btn:hover {
+    background-color: #8891f2;
+}
+
+section {
+    padding: 30px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.titulo-banner {
+    padding-bottom: 25px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+p .banner-text {
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal
+}
+
+.banner {
+    justify-content: space-between;
+}
+
+.banner-text {
+    color: white;
+    width: 40%;
+    padding: 0 40px;
+}
+
+.banner-img {
+    width: 60%;
+    text-align: center;
+}
+
+main {
+    background-color: white;
+    flex: 1 1 100vw;
+}
+
+.roadmap-text {
+    width: 50%;
+    /* Adjust based on desired layout */
+    padding: 20px;
+}
+
+
+h1 .roadmap-text {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+h3 .roadmap-card {
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+
+p .roadmap-card {
+    line-height: 2em;
+}
+
+.roadmap-card {
+    width: calc(33.33% - 40px);
+    /* Accounts for margins */
+    background-color: #B6BBF2;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 30px;
+}
+
+.titulo-card {
+    padding: 25px 0;
+}
+
+.link-roadmap {
+    display: flex;
+    justify-content: space-between;
+    margin: 20 0px;
+}
+
+.img-card {
+    padding: 25px 0;
+    text-align: right;
+}
+
+.saiba-mais {
+    padding-top: 80px;
+}
+
+.btn .saiba-mais {
+    background-color: #170033;
+    padding: 10px;
+    color: white;
+    border-radius: 7px;
+    text-decoration: none;
+    margin: 30px;
+}
+
+
+.acessar-quiz {
+    width: 100%;
+    margin: 30px;
+    align-items: center;
+    border-radius: 30px;
+    color: #170033;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.box-acessar-quiz {
+    width: 100%;
+    background: transparent;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    padding: 100px;
+}
+
+footer {
+    display: flex;
+    background-color: #D9D9D9;
+    justify-content: space-between;
+    padding: 30px;
+    flex: 1 1 100vw;
+    align-items: center;
+    font-size: 15px;
+}
+
+p div footer {
+    font-size: 15px;
+}
+
+@media (max-width: 768px) {
+    .banner-img {
+        width: 100%;
+    }
+    footer{
+        font-size: 0.4rem; 
+        padding: 5px;
+        width: auto; 
+    }
+}
+
+@media (max-width: 1500px) {
+    .roadmap-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .roadmap-text {
+        width: 100%;
+        /* 100% width on smaller screens */
+    }
+
+    .roadmap-card {
+        width: 100%;
+        /* 100% width on smaller screens */
+        margin: 10px;
+        /* Adjust margins if needed */
+    }
+    .btn{
+        padding: 10px 20px;
+        font-size: 30px;
+    }
+
+}
