@@ -14,23 +14,30 @@
     <h1>DEV PATH</h1>
   </header>
   <br>
+
 <main>
+
   <div class="wrapper">
       <h2>Cadastro</h2>
       <form action="#">
+
       <div class="input-box">
         <input type="text" placeholder="Nome" required>
+        <label id="labelNome" for="Nome"></label>
       </div>
 
       <div class="input-box">
         <input type="text" placeholder="Email" required>
+        <label id="labelEmail" for="Email"></label>
       </div>
 
       <div class="input-box">
         <input type="password" placeholder="Senha" required>
+        <label id="labelSenha" for="Senha"></label>
       </div>
+
 <br>
-      <button type="submit" class="btn">Cadastrar</button>
+      <button onclick="cadastrar()" type="submit" class="btn">Cadastrar</button>
 
       <div class="login-link"></div>
       <br>
@@ -61,7 +68,7 @@
       <img src="IMG/logo-puc-minas.png" alt="" width="50" height="50">
     </div>
   </footer>
-
+<script src="./JS/cadastro.js"></script>
 </body>
 
 </html>
