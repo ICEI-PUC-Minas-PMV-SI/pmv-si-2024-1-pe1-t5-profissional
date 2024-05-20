@@ -12,7 +12,16 @@ form.addEventListener("submit" ,  (event) => {
         alert("Por favor , preencha o seu nome.");
         return;
     }
+// Verifica se o email está vazio
+if(emailInput.value === ""){
+    alert("Por favor , preencha o seu email.");
+    return;
+
     // Se todos os campos  estiverem corretamente preenchidos , envie o form
     form.submit();
 
-});
+}});
+
+function cadastrar(){
+    alert("Cadastrado")
+}
