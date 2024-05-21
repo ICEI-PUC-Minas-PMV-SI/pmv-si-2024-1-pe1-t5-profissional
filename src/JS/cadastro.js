@@ -1,45 +1,39 @@
-const form = document.querySelector("#Form")
-const nameInput = document.querySelector("#Nome")
-const emailInput = document.querySelector("#Email")
-const passwordInput = document.querySelector("#senha")
-   
-form.addEventListener("submit" ,  (event) => {
+const form = document.querySelector("#Form");
+const nameInput = document.querySelector("#Nome");
+const emailInput = document.querySelector("#Email");
+const passwordInput = document.querySelector("#senha");
 
+form.addEventListener("submit", (event) => {
     event.preventDefault();
 
     // Verifica se o nome está vazio
-    if(nameInput.value === ""){
-        alert("Por favor , preencha o seu nome.");
+    if (nameInput.value === "") {
+        alert("Por favor, preencha o seu nome.");
         return;
     }
 
-// Verifica se o email está vazio
-if(emailInput.value === "" || !isEmailValid(emailInput.value)) {
-    alert("Por favor , verifique seu e-mail.");
-    return;
-}});
-
-function isEmailValid(email){
-    const emailRegex = new RegExp(
-        /^[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z]{2,}$/
-    );
-
-    if(emailRegex.test(email)) {
-        return true;
+    // Verifica se o email está vazio ou inválido
+    if (emailInput.value === "" || !isEmailValid(emailInput.value)) {
+        alert("Por favor, verifique seu e-mail.");
+        return;
     }
 
-    return false;
-}
-
-function validatePassword(password, minDigits){
-    if(password.length >= minDigits){
-        return true;
+    // Verifica se a senha tem no mínimo 8 dígitos
+    if (!validatePassword(passwordInput.value, 8)) {
+        alert("A senha deve ter no mínimo 8 dígitos!");
+        return;
     }
-    return false;
-}
-if(!validatePassword(passwordInput.value, 8)){
-    alert("A senha deve ter no mínimo 8 digitos!"); 
-    ;
+
+    // Se todos os campos forem válidos, o formulário pode ser enviado
+    form.submit();
+});
+
+function isEmailValid(email) {
+    const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z]{2,}$/;
+    return emailRegex.test(email);
 }
 
+function validatePassword(password, minDigits) {
+    return password.length >= minDigits;
+}
 
