@@ -17,18 +17,24 @@ form.addEventListener("submit", (event) => {
         alert("Por favor, verifique seu e-mail.");
         return;
     }
-
-    // Verifica se a senha tem no mínimo 8 dígitos
+    
     if (!validatePassword(passwordInput.value, 8)) {
         alert("A senha deve ter no mínimo 8 dígitos!");
         return;
     }
-    
-    localStorage.setItem("Nome", nameInput.value);
-    localStorage.setItem("Email", emailInput.value);
-    localStorage.setItem("Senha", passwordInput.value);
 
-    alert("Cadastrado com sucesso");
+    const users = JSON.parse(localStorage.getItem("users")) || [];
+
+    const newUser = {
+        name: nameInput.value,
+        email: emailInput.value,
+        password: passwordInput.value
+    };
+    users.push(newUser);
+
+    localStorage.setItem("users", JSON.stringify(users));
+
+    alert("Dados salvos com sucesso!");
 });
 
 function isEmailValid(email) {
@@ -39,4 +45,5 @@ function isEmailValid(email) {
 function validatePassword(password, minDigits) {
     return password.length >= minDigits;
 }
+
 
