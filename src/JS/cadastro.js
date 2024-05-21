@@ -7,13 +7,13 @@ form.addEventListener("submit", (event) => {
     event.preventDefault();
 
     // Verifica se o nome está vazio
-    if (nameInput.value === "") {
+    if (nameInput.value.trim() === "") {
         alert("Por favor, preencha o seu nome.");
         return;
     }
 
     // Verifica se o email está vazio ou inválido
-    if (emailInput.value === "" || !isEmailValid(emailInput.value)) {
+    if (emailInput.value.trim() === "" || !isEmailValid(emailInput.value)) {
         alert("Por favor, verifique seu e-mail.");
         return;
     }
@@ -23,9 +23,12 @@ form.addEventListener("submit", (event) => {
         alert("A senha deve ter no mínimo 8 dígitos!");
         return;
     }
+    
+    localStorage.setItem("Nome", nameInput.value);
+    localStorage.setItem("Email", emailInput.value);
+    localStorage.setItem("Senha", passwordInput.value);
 
-    // Se todos os campos forem válidos, o formulário pode ser enviado
-    form.submit();
+    alert("Cadastrado com sucesso");
 });
 
 function isEmailValid(email) {
