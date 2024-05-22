@@ -34,7 +34,7 @@ form.addEventListener("submit", (event) => {
 
     localStorage.setItem("users", JSON.stringify(users));
 
-    alert("Dados salvos com sucesso!");
+    alert("Cadastrado com sucesso!");
 });
 
 function isEmailValid(email) {
