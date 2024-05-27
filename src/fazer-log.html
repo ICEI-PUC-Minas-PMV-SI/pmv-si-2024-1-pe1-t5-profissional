@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dev Path: Login</title>
     <link rel="stylesheet" href="CSS/style-login.css">
+    <script src=“login.js” defer></script>
 </head>
 
 <body>
@@ -20,18 +21,29 @@
         <div class="wrapper">
             <h2>Login</h2>
             <form action="#">
-                <div>
+
+                <div id ='msgError'></div>
+
+                <div class="label-float">
                     <input type="email" name="email" id="email" placeholder="Email">
+                    <label id = 'userLabel' for = 'email'></label>
                 </div>
-                <div>
+
+                <div class="label-float">
                     <input type="password" name="senha" id="senha" placeholder="Senha">
+                    <label id = 'senhaLabel' for = 'senha'></label>
+                    <i class="fa fa-eye" aria-hidden="true"></i>
                 </div>
+
                 <a href="#" id="forgot-password">Esqueceu a senha?</a>
-                <button type="submit">Entrar</button>
+
+                <button onclick="entrar">Entrar</button>
+
                 <div class="new-member">
                     <p>É novo por aqui?</p>
                     <a class="create-account" href="criar-cadastro.html">Cadastre-se</a>
                 </div>
+
             </form>
             <img src="IMG/IMGpngLOGOazul.png" width="110" height="80" alt="Logo DevPath">
         </div>
