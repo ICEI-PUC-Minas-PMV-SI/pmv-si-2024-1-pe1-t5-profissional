@@ -42,6 +42,11 @@ function entrar() {
     })
 
     if (email.value == userValid.email && senha.value == userValid.password) {
+        window.location.href = "/src/usu-logado.html";
+        let token = Math.random().toString(16).substr(2) + Math.random().toString(16).substr(2)
+        localStorage.setItem('token',token)
+
+        localStorage.setItem('userLogado',JSON.stringify(userValid))
         alert ('Login efetuado com sucesso!')
     } else {
         alert ('Usuário ou Senha incorretos.')
