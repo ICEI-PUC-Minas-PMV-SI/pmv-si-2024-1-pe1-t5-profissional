@@ -31,5 +31,4 @@ form.addEventListener('submit', (e) => {
   console.log(Object.fromEntries(fd)); 
   
   console.log(Array.from(fd));
-
 });
