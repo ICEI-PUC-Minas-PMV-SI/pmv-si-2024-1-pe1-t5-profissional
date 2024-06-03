@@ -25,20 +25,52 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
 Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe qual o Requisito Funcional ou não funcional que ele está verificando. Associe também a página (ou artefato) onde o teste será realizado e descreva o cenário do teste. Veja a tabela de exemplo.
 
 
-**Caso de Teste** | **CT01 - Criar conta parte 1**
+**Caso de Teste** | **CT01 - Criar conta parte**
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Clique em criar conta <br> 2) Preencha todos os campos do formulário <br> 3) Clique no botão "Continuar".
-**Requisitos associados** | RF-001
-**Resultado esperado** | Prosseguir para a parte 2 do cadastro
+**Procedimento**  | 1) Usuário informa nome, e-mail, senha e clica no botão "Cadastrar" <br> 2) A aplicação verifica se os dados são válidos e informa ao usuário.
+**Requisitos associados** | RF-006
+**Resultado esperado** | Criação de vadastro
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro
 **Resultado obtido** | Sucesso
 
-**Caso de Teste** | **CT02 - Criar conta parte 2**
+**Caso de Teste** | **CT02 - Acessar conta**
  :--------------: | ------------
-**Procedimento**  | 1) Preencha todos os campos do formulário <br> 2) Clique no botão "Criar conta" <br> 
-**Requisitos associados** | RF-001
-**Resultado esperado** | Usuário cadastrado
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
+**Procedimento**  | 1) Usuário informa Email, Senha e clica no botão "Entrar" <br> 2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam. <br> 
+**Requisitos associados** | RF-011
+**Resultado esperado** | Usuário logado.
+**Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
+**Resultado obtido** | Sucesso.
+
+**Caso de Teste** | **CT03 - Acessar roadmap**
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário clica no botão "Saiba Mais" do roadmap de sua correspondência <br> 2) A aplicação verifica e o encaminha para o roadmap correspondente. <br> 
+**Requisitos associados** | RF-015
+**Resultado esperado** | Visualização do roadmap selecionado.
+**Dados de entrada** | Solicitação de visualização do roadmap selecionado.
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT04 - Acessar quiz**
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário clica no botão "Acessar Quiz"  <br> 2) A aplicação verifica e o encaminha para o quiz. <br> 
+**Requisitos associados** | RF-017
+**Resultado esperado** | Visualização do quiz.
+**Dados de entrada** | Solicitação de visualização do quiz.
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT05 - Responder quiz e visuzalizar sugestão**
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário visualiza oito perguntas que apareceram em recorrência de suas respostas  <br> 2) Usuário seleciona uma, duas ou três das opções de resposta.  <br> 3)  A aplicação verifica suas respostas e o fornece a sugestão de roadmap. <br>
+**Requisitos associados** | RF-018
+**Resultado esperado** | Sugestão de roadmap.
+**Dados de entrada** | Respostas do quiz.
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT06 - Acessar conteúdos do roadmap**
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário clicar no conteúdo que é de seu interesse  <br> 2) A aplicação o encaminha para o material do conteúdo correspondente  <br> 
+**Requisitos associados** | RF-027
+**Resultado esperado** | Visualização do conteúdo.
+**Dados de entrada** | Solicitação de visualização do conteúdo
 **Resultado obtido** | Sucesso
 
 ## Registro dos Testes de Software
