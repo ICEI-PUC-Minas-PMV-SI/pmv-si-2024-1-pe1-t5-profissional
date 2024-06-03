@@ -25,7 +25,7 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
 Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe qual o Requisito Funcional ou não funcional que ele está verificando. Associe também a página (ou artefato) onde o teste será realizado e descreva o cenário do teste. Veja a tabela de exemplo.
 
 
-**Caso de Teste** | **CT01 - Criar conta parte**
+**Caso de Teste** | **CT01 - Criar conta**
  :--------------: | ------------
 **Procedimento**  | 1) Usuário informa nome, e-mail, senha e clica no botão "Cadastrar" <br> 2) A aplicação verifica se os dados são válidos e informa ao usuário.
 **Requisitos associados** | RF-006
