@@ -77,15 +77,35 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
 
-|*Caso de Teste*                                 |*CT01 - Criar conta parte 1*                                         |
+|*Caso de Teste*                                 |*CT01 - Criar conta conta*                                         |
 |---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/u/s!AhD2JqpOUvJChapRtRSQ9vPzbNLwGA?e=mxZs6t| 
+|Requisito Associado | RF-006 - A aplicação deve permitir a criação de usuário por Nome,Email e Senha|
+|Link do vídeo do teste realizado: | (Coloque o link do vídeo aqui)| 
 
-|*Caso de Teste*                                 |*CT02 - Criar conta parte 2*                                        |
+|*Caso de Teste*                                 |*CT02 - Acessar conta*                                        |
 |---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Requisito Associado | RF-011 - A aplicação deve permitir a inserção de login por Email e Senha|
+|Link do vídeo do teste realizado: |  (Coloque o link do vídeo aqui)| 
+
+|*Caso de Teste*                                 |*CT03 - Acessar roadmap*                                        |
+|---|---|
+|Requisito Associado | RF-015 - A aplicação deve permitir a navegação para página de cada roadmap (front-end, back-end e data-science)|
+|Link do vídeo do teste realizado: |  (Coloque o link do vídeo aqui)| 
+
+|*Caso de Teste*                                 |*CT04 - Acessar quiz*                                        |
+|---|---|
+|Requisito Associado | RF-017 - A aplicação deve permitir a navegação para o a página do quiz|
+|Link do vídeo do teste realizado: |  (Coloque o link do vídeo aqui)| 
+
+|*Caso de Teste*                                 |*CT05 - Responder quiz e visuzalizar sugestão*                                        |
+|---|---|
+|Requisito Associado | RF-018 -A aplicação deve permitir a seleção entre três opções das oito perguntas|
+|Link do vídeo do teste realizado: |  (Coloque o link do vídeo aqui)| 
+
+|*Caso de Teste*                                 |*CT05 - Acessar conteúdos do roadmap*                                        |
+|---|---|
+|Requisito Associado | RF-027 -A aplicação deve permitir a navegação para a playlist ou vídeo aula indicada ao usuário|
+|Link do vídeo do teste realizado: |  (Coloque o link do vídeo aqui)| 
 
 
 ## Avaliação dos Testes de Software
