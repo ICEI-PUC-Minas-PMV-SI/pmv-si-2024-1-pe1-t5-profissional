@@ -163,7 +163,7 @@ Cenário 2: Você é uma pessoa que deseja acessar diretamente o roadmap. Encont
 | 3       | SIM             | 54                   | 5                    | 29.19 segundos                  |
 |  |  |  |  |
 | **Média**     | 100%      | 42                   | 5                    | 21.69 segundos                  |
-| **Tempo para conclusão pelo especialista** | SIM ||| 23                   | 6.23 segundos                   |
+| **Tempo para conclusão pelo especialista** | SIM || 23                   | 6.23 segundos                   |
 
 
     Comentários dos usuários: "Muito bacana".
@@ -178,7 +178,7 @@ Cenário 2: Você é uma pessoa que deseja responder o quiz para receber uma ind
 | 3       | SIM             | 54                   | 5                    | 32.47 segundos                  |
 |  |  |  |  |  
 | **Média**     | 100%      |  42                  | 5                    | 24.35 segundos                  |
-| **Tempo para conclusão pelo especialista** | SIM ||| 19                   | 7.57 segundos                   |
+| **Tempo para conclusão pelo especialista** | SIM || 19                   | 7.57 segundos                   |
 
 
     Comentários dos usuários: A possibilidade de responder um quiz que permite um direcionamento para determinada área
