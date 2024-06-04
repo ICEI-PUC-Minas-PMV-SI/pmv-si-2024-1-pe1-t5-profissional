@@ -154,10 +154,10 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 
 ## Registro de Testes de Usabilidade
 
-Cenário 1: Você é uma pessoa que deseja acessar diretamente o roadmap. Encontre o botão "Saiba Mais" e acesse.
+Cenário 2: Você é uma pessoa que deseja acessar diretamente o roadmap. Encontre o botão "Saiba Mais" e acesse.
 
 | Usuário | Taxa de sucesso | Idade                | Satisfação subjetiva | Tempo para conclusão do cenário |
-|---------|-----------------|----------------------|--------------------------------------------------------|
+|---------|-----------------|----------------------|----------------------|---------------------------------|
 | 1       | SIM             | 27                   | 5                    | 10.48 segundos                  |
 | 2       | SIM             | 45                   | 5                    | 25.11 segundos                  |
 | 3       | SIM             | 54                   | 5                    | 29.19 segundos                  |
@@ -176,7 +176,7 @@ Cenário 2: Você é uma pessoa que deseja responder o quiz para receber uma ind
 | 1       | SIM             | 27                   | 5                    | 12.46 segundos                  |
 | 2       | SIM             | 45                   | 5                    | 28.12 segundos                  |
 | 3       | SIM             | 54                   | 5                    | 32.47 segundos                  |
-|  |  |  |  |
+|  |  |  |  |  |
 | **Média**     | 100%                             | 5                    | 24.35 segundos                  |
 | **Tempo para conclusão pelo especialista** | SIM | 5                    | 7.57 segundos                   |
 
