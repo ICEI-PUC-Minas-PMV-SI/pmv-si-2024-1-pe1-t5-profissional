@@ -169,7 +169,7 @@ Cenário 2: Você é uma pessoa que deseja acessar diretamente o roadmap. Encont
     Comentários dos usuários: "Muito bacana".
 
 
-Cenário 2: Você é uma pessoa que deseja responder o quiz para receber uma indicação de roadmap Encontre o quiz e inicie o questionário.
+Cenário 2: Você é uma pessoa que deseja responder o quiz. Encontre o quiz e inicie o questionário.
 
 | Usuário | Taxa de sucesso | Idade                | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|----------------------|---------------------------------|
