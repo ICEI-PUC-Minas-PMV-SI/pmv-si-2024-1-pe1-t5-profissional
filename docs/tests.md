@@ -100,7 +100,7 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |*Caso de Teste*                                 |*CT05 - Responder quiz e visuzalizar sugestão*                                        |
 |---|---|
 |Requisito Associado | RF-018 -A aplicação deve permitir a seleção entre três opções das oito perguntas|
-|Link do vídeo do teste realizado: |  (Coloque o link do vídeo aqui)| 
+|Link do vídeo do teste realizado: | https://1drv.ms/v/s!Aqv2merruqSDgQl-pOO1HvYk1PBU?e=AB0wJt | 
 
 |*Caso de Teste*                                 |*CT05 - Acessar conteúdos do roadmap*                                        |
 |---|---|
