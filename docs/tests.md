@@ -147,54 +147,51 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 
 | Nº do Cenário | Descrição do cenário |
 |---------------|----------------------|
-| 1             | Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando. |
-| 2             | Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço. |
+| 1             | Você é uma pessoa que deseja acessar diretamente o roadmap. Encontre o botão "Saiba Mais" e acesse. |
+| 2             | Você é uma pessoa que deseja responder o quiz para receber uma indicação de roadmap Encontre o quiz e inicie o questionário. |
 
 
 
 ## Registro de Testes de Usabilidade
 
-Cenário 1: Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando.
+Cenário 1: Você é uma pessoa que deseja acessar diretamente o roadmap. Encontre o botão "Saiba Mais" e acesse.
 
-| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
-|---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 27.87 segundos                  |
-| 2       | SIM             | 5                    | 17.11 segundos                  |
-| 3       | SIM             | 5                    | 39.09 segundos                  |
+| Usuário | Taxa de sucesso |Idade                 | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|--------------------------------------------------------|
+| 1       | SIM             | 27                   | 5                    | 10.48 segundos                  |
+| 2       | SIM             | 45                   | 5                    | 25.11 segundos                  |
+| 3       | SIM             | 54                   | 5                    | 29.19 segundos                  |
 |  |  |  |  |
-| **Média**     | 100%           | 5                | 28.02 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 8.66 segundos |
+| **Média**     | 100%           | 5                | 21.69 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 6.23 segundos |
 
 
-    Comentários dos usuários: Achei o site muito bom e intuitivo. 
-    Não tive dificuldades e acho que ficou bem intuitivo.
+    Comentários dos usuários: "Muito bacana".
 
 
-Cenário 2: Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço.
+Cenário 2:Você é uma pessoa que deseja responder o quiz para receber uma indicação de roadmap Encontre o quiz e inicie o questionário.
 
-| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
-|---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 4                    | 36.21 segundos                          |
+| Usuário | Taxa de sucesso | Idade                | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|----------------------|---------------------------------|
+| 1       | SIM             | 27                   | 5                    | 12.46 segundos                  |
+| 2       | SIM             | 45                   | 5                    | 28.12 segundos                  |
+| 3       | SIM             | 54                   | 5                    | 32.47 segundos                  |
 |  |  |  |  |
-| **Média**     | 100%           | 4.67                | 30.05 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+| **Média**     | 100%           | 5               | 24.35 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 7.57 segundos |
 
 
-    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
-    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
-    tanto na hora da pesquisa, quanto depois dela, nos resultados.
+    Comentários dos usuários: A possibilidade de responder um quiz que permite um direcionamento para determinada área
+    de estudo foi genial.
 
 ## Avaliação dos Testes de Usabilidade
 
-Tomando como base os resultados obtidos, foi possível verificar que a aplicação web apresenta bons resultados quanto à taxa de sucesso na interação dos usuários, tendo em vista que os cenários propostos foram concluídos com sucesso.
+Com base nos resultados obtidos, a aplicação web mostrou-se eficaz na interação com os usuários, com todos os cenários propostos sendo concluídos com sucesso.
 
-Além disso, a aplicação obteve também uma elevada satisfação subjetiva dos usuários no momento que realizavam os cenários propostos. Prova são as médias das avaliações em cada um dos cenários, que variou entre 4 (bom) e 5 (ótimo).
+Os usuários expressaram alta satisfação ao completar as tarefas, embora aqueles com maior idade tenham encontrado algumas dificuldades. Apesar disso, as avaliações desse grupo foram predominantemente positivas, com notas variando de 3 (regular) a 5 (ótimo).
 
-Com relação ao tempo para conclusão de cada tarefa/cenário, notamos discrepância entre a média de tempo dos usuários e o tempo do especialista/desenvolvedor em todos os cenários. Tal discrepância, em certa medida, é esperada, tendo em vista que o desenvolvedor já tem prévio conhecimento de toda a interface da aplicação, do posicionamento dos elementos, lógica de organização das páginas, etc.
+Houve uma diferença notável no tempo de conclusão das tarefas entre os usuários comuns e os desenvolvedores. Essa diferença é esperada, já que os desenvolvedores possuem um conhecimento detalhado da interface, dos elementos e da organização das páginas.
 
-Contudo, tendo em vista que a diferença foi relevante (por exemplo, 113 segundos — média usuários — contra 25 segundos — especialista — no cenário três), e ainda os comentários feitos por alguns usuários, entendemos haver oportunidades de melhoria na usabilidade da aplicação.
-
+Em resumo, o projeto recebeu avaliações muito positivas nos testes e no feedback dos usuários, mas ainda há espaço para melhorias, especialmente para torná-lo mais acessível a usuários com deficiência visual.
 
 
