@@ -45,5 +45,3 @@ function isEmailValid(email) {
 function validatePassword(password, minDigits) {
     return password.length >= minDigits;
 }
-
-
