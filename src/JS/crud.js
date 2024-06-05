@@ -1,4 +1,4 @@
-// Função para renderizar os usuários na tabela
+
 function renderizarUsuarios() {
     const users = JSON.parse(localStorage.getItem("users")) || [];
     const userTableBody = document.querySelector("#userTable tbody");
@@ -20,7 +20,7 @@ function renderizarUsuarios() {
     });
 }
 
-// Função para editar um usuário
+
 function editarUsuario(email) {
     const users = JSON.parse(localStorage.getItem("users")) || [];
     const userIndex = users.findIndex(user => user.email === email);
@@ -40,7 +40,7 @@ function editarUsuario(email) {
     }
 }
 
-// Função para excluir um usuário
+
 function excluirUsuario(email) {
     const users = JSON.parse(localStorage.getItem("users")) || [];
     const confirmacao = confirm("Tem certeza que deseja excluir este usuário?");
@@ -52,11 +52,11 @@ function excluirUsuario(email) {
     }
 }
 
-// Função para validar o formato do email
+
 function isEmailValid(email) {
     const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z]{2,}$/;
     return emailRegex.test(email);
 }
 
-// Renderiza os usuários ao carregar a página
+
 document.addEventListener("DOMContentLoaded", renderizarUsuarios);

@@ -1,4 +1,3 @@
-// Função para renderizar os usuários na tabela
 function renderizarUsuarios() {
     const users = JSON.parse(localStorage.getItem("users")) || [];
     const userTableBody = document.querySelector("#userTable tbody");
@@ -20,7 +19,7 @@ function renderizarUsuarios() {
     });
 }
 
-// Função para editar um usuário
+
 function editarUsuario(email) {
     const users = JSON.parse(localStorage.getItem("users")) || [];
     const index = users.findIndex(user => user.email === email);
@@ -42,7 +41,7 @@ function editarUsuario(email) {
     }
 }
 
-// Função para excluir um usuário
+
 function excluirUsuario(email) {
     const confirmacao = confirm("Tem certeza que deseja excluir este usuário?");
     if (confirmacao) {
@@ -54,7 +53,7 @@ function excluirUsuario(email) {
     }
 }
 
-// Adicionando evento de submissão do formulário de cadastro
+
 const form = document.querySelector("#Form");
 const nameInput = document.querySelector("#Nome");
 const emailInput = document.querySelector("#Email");
@@ -63,13 +62,13 @@ const passwordInput = document.querySelector("#senha");
 form.addEventListener("submit", (event) => {
     event.preventDefault();
 
-    // Verifica se o nome está vazio
+    
     if (nameInput.value.trim() === "") {
         alert("Por favor, preencha o seu nome.");
         return;
     }
 
-    // Verifica se o email está vazio ou inválido
+    
     if (emailInput.value.trim() === "" || !isEmailValid(emailInput.value)) {
         alert("Por favor, verifique seu e-mail.");
         return;
@@ -93,25 +92,25 @@ form.addEventListener("submit", (event) => {
 
     alert("Cadastrado com sucesso!");
 
-    // Renderiza os usuários após cadastrar um novo
+    
     renderizarUsuarios();
 
-    // Limpa os campos do formulário após o cadastro
+    
     nameInput.value = "";
     emailInput.value = "";
     passwordInput.value = "";
 });
 
-// Função para verificar se o email é válido
+
 function isEmailValid(email) {
     const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z]{2,}$/;
     return emailRegex.test(email);
 }
 
-// Função para validar a senha
+
 function validatePassword(password, minDigits) {
     return password.length >= minDigits;
 }
 
-// Renderiza os usuários ao carregar a página
+
 document.addEventListener("DOMContentLoaded", renderizarUsuarios);
