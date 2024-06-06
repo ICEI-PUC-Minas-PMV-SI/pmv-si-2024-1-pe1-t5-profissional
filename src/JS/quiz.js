@@ -15,6 +15,8 @@ function armazenaRespostas(numero_questao, event){
         console.log(event.target.value);
         answers['q'+ numero_questao] = parseInt(event.target.value);
         console.log(answers);
+        /*Armazena as respostas no local storage como JSON string */
+        localStorage.setItem('answers', JSON.stringify(answers));
     }
 }
 
@@ -57,20 +59,15 @@ questao_8.addEventListener('click', function(event){
     armazenaRespostas(8, event)
 })
 
-
-function totalScore(){
-    var total_score =
-    answers.questao_1+
-    answers.questao_2+
-    answers.questao_3+
-    answers.questao_4+
-    answers.questao_5+
-    answers.questao_6+
-    answers.questao_7+
-    answers.questao_8;
-
+// Teste para saber o total
+function totalScore() {
+    var total_score = 0;
+    for (let i = 1; i <= 8; i++) {
+        total_score += answers['q' + i] || 0;
+    }
     return total_score;
 }
+
 
 
 function pegarInfoBaseadoNoScore(){
@@ -160,21 +157,22 @@ sub7.addEventListener('click', function(){
 
 
 })
-submit8.addEventListener('click', function(){
+document.getElementById('submit8').addEventListener('click', function() {
     proximaQuestao(9);
     document.getElementById('grafico').style.display = 'block';
     document.getElementById('questions_nav').style.display = 'none';
-    document.getElementById('pic').style.display = 'block';
+    document.getElementById('loader').style.display = 'block';
+    //document.getElementById('pic').style.display = 'block';
     document.getElementById('progress_bar').style.display = 'none';
-
-})
-
-
-
-submit8.addEventListener('click', function(){
     document.getElementById("printtotalscore").innerHTML = totalScore();
     document.getElementById("printscoreinfo").innerHTML = pegarInfoBaseadoNoScore();
+
+
 })
+
+
+
+
 
 function growProgressBar(percentage_width){
     var bar = document.getElementById("progress_bar");
@@ -184,6 +182,186 @@ function growProgressBar(percentage_width){
 
 
 
+
+// Conta as respostas 
+function countTotalResponses() {
+    let countA = 0;
+    let countB = 0;
+    let countC = 0;
+
+    let radios = document.querySelectorAll('.questions_box input[type="radio"]');
+
+
+    radios.forEach(radio => {
+        if (radio.checked) {
+        
+            if (radio.value === '1') {
+                countA++;
+            } else if (radio.value === '2') {
+                countB++;
+            } else if (radio.value === '3') {
+                countC++;
+            }
+        }
+    });
+
+    return { A: countA, B: countB, C: countC };
+}
+
+// Mostra a quantidade que cada resposta foi selecionada
+document.getElementById('submit8').addEventListener('click', function() {
+    let totalCounts = countTotalResponses();
+    console.log("Total count of 'A' responses: " + totalCounts.A);
+    console.log("Total count of 'B' responses: " + totalCounts.B);
+    console.log("Total count of 'C' responses: " + totalCounts.C);
+});
+
+
+
+ //Lógica para escolher como irá ficar a última pergunta em relação as respostas
+
+ function countTotalResponses() {
+    let countA = 0;
+    let countB = 0;
+    let countC = 0;
+
+    let radios = document.querySelectorAll('.questions_box input[type="radio"]');
+
+    radios.forEach(radio => {
+        if (radio.checked) {
+            if (radio.value === '1') {
+                countA++;
+            } else if (radio.value === '2') {
+                countB++;
+            } else if (radio.value === '3') {
+                countC++;
+            }
+        }
+    });
+
+    return { A: countA, B: countB, C: countC };
+}
+
+document.getElementById('submit7').addEventListener('click', function() {
+    let totalCounts = countTotalResponses();
+    console.log("Total count of 'A' responses: " + totalCounts.A);
+    console.log("Total count of 'B' responses: " + totalCounts.B);
+    console.log("Total count of 'C' responses: " + totalCounts.C);
+    // Testado Pode escolher entre Front a BackEnd
+    if (totalCounts.A === 3 && totalCounts.B === 3) {
+        document.getElementById('q8-resposta-C').parentNode.style.display = 'none';
+    }
+     // Testado Pode escolher entre Front a DB
+    else if (totalCounts.A === 3 && totalCounts.C === 3) {
+        document.getElementById('q8-resposta-B').parentNode.style.display = 'none';
+    }
+     // Testado Pode escolher entre BackEnd a DB
+    else if (totalCounts.B === 3 && totalCounts.C === 3) {
+        document.getElementById('q8-resposta-A').parentNode.style.display = 'none';
+    }
+    // Testado Se a pessoa marca mais Back ela pode escolher entre DB e BackEnd
+
+    else if (totalCounts.B > totalCounts.C &&  totalCounts.C === totalCounts.A  ) {
+        document.getElementById('q8-resposta-A').parentNode.style.display = 'none';
+    }
+    // Testado Se a pessoa marca mais DB ela pode escolher entre DB e BackEnd
+    else if (totalCounts.C > totalCounts.A && totalCounts.A  === totalCounts.B  ) {
+        document.getElementById('q8-resposta-A').parentNode.style.display = 'none';
+    }
+    // Testado Se a pessoa marca mais Front ela pode escolher entre Front e BackEnd
+    else if (totalCounts.A > totalCounts.B  &&  totalCounts.B === totalCounts.C  ) {
+        document.getElementById('q8-resposta-C').parentNode.style.display = 'none';
+    }
+
+});
+
+
+
+// Para não enviar o form vazio
+
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('questions_form').addEventListener('submit', function(event) {
+        // Obtém todas as respostas selecionadas
+        let answers = {};
+        let questions = document.querySelectorAll('.question');
+        questions.forEach(function(question, index) {
+            let questionNumber = index + 1;
+            let selectedAnswer = question.querySelector('input[type="radio"]:checked');
+            if (selectedAnswer) {
+                answers['qu-' + questionNumber] = selectedAnswer.value;
+            } else {
+                answers['qu-' + questionNumber] = null;
+            }
+        });
+
+        // Verifica se pelo menos uma resposta foi selecionada
+        let hasAnswer = Object.values(answers).some(answer => answer !== null);
+        if (!hasAnswer) {
+            alert('Por favor, selecione pelo menos uma resposta antes de enviar o formulário.');
+            event.preventDefault(); // Evita o envio do formulário se nenhuma resposta for selecionada
+        } else {
+            // Grava as respostas em um arquivo JSON
+            let jsonData = JSON.stringify(answers);
+            console.log(jsonData);
+            // Aqui você pode enviar os dados para o servidor ou fazer qualquer outra coisa com eles
+        }
+    });
+});
+
+
+// Para mostrar o loading
+document.querySelector('.quiz-form').addEventListener('submit', function(event) {
+    // Impede que o formulário seja enviado normalmente
+    event.preventDefault();
+
+    // Mostra o loader imediatamente
+    document.querySelector('.style-quiz-loading').style.display = 'block';
+
+    // Define a duração do tempo de exibição do loader (em milissegundos)
+    var loaderDisplayTime = 5000; // 5 segundos
+
+    // Simula um atraso antes de mostrar o resultado
+    setTimeout(function() {
+        // Esconde o loader
+        document.querySelector('.style-quiz-loading').style.display = 'none';
+
+        // Mostra o resultado do quiz
+        document.querySelector('.quiz-result').style.display = 'block';
+    }, loaderDisplayTime); 
+});
+
+
+
+
+/*Checar se todas as perguntas estão sendo respondidas */
+function verificarRespostas() {
+    var todasRespondidas = true;
+    var perguntas = document.querySelectorAll('.question');
+
+    for (var i = 0; i < perguntas.length - 1; i++) {
+        var respostaSelecionada = perguntas[i].querySelector('input[type="radio"]:checked');
+        if (!respostaSelecionada) {
+            todasRespondidas = false;
+            break;
+        }
+    }
+
+    if (todasRespondidas) {
+        document.getElementById('qu-9').style.display = 'block';
+    } else {
+        document.getElementById('qu-9').style.display = 'none';
+    }
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    var botoesEnviar = document.querySelectorAll('.button[type="submit"]');
+    botoesEnviar.forEach(function(botao) {
+        botao.addEventListener('click', function(event) {
+            event.preventDefault();
+            verificarRespostas();
+        });
+    });
+});
 
 /*Funções para as bolinhas na parte inferior */
 
@@ -210,4 +388,6 @@ document.querySelectorAll('.ball').forEach(function(ball, index) {
         selectBall(index + 1);
     });
 });
+
+
 

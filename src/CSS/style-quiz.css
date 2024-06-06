@@ -229,7 +229,7 @@ main {
     color: white;
   }
   
-  #qu-2, #qu-3, #qu-4, #qu-5, #qu-6,#qu-7,#qu-8,#qu-9,#grafico,#pic{
+  #qu-2, #qu-3, #qu-4, #qu-5, #qu-6,#qu-7,#qu-8,#qu-9,#grafico,#pic, #loader{
     display: none;
   }
   
