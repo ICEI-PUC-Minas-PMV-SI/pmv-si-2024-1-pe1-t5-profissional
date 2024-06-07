@@ -1,5 +1,3 @@
-let btn = document.querySelector('.fa-eye')
-
 btn.addEventListener('click', ()=> {
 
     let inputSenha = document.querySelector('#senha')

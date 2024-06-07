@@ -1,4 +1,4 @@
-btn.addEventListener('click', ()=> {
+btn.addEventListener('click', () => {
 
     let inputSenha = document.querySelector('#senha')
 
@@ -26,10 +26,10 @@ function entrar() {
     }
 
     listaUser = JSON.parse(localStorage.getItem('users')) || []
-    
+
     listaUser.forEach((item) => {
         if (email.value == item.email && senha.value == item.password) {
-            
+
             userValid = {
                 name: item.name,
                 email: item.email,
@@ -42,11 +42,11 @@ function entrar() {
     if (email.value == userValid.email && senha.value == userValid.password) {
         window.location.href = "usu-logado.html";
         let token = Math.random().toString(16).substr(2) + Math.random().toString(16).substr(2)
-        localStorage.setItem('token',token)
+        localStorage.setItem('token', token)
 
-        localStorage.setItem('userLogado',JSON.stringify(userValid))
-        alert ('Login efetuado com sucesso!')
+        localStorage.setItem('userLogado', JSON.stringify(userValid))
+        alert('Login efetuado com sucesso!')
     } else {
-        alert ('Usuário ou Senha incorretos.')
+        alert('Usuário ou Senha incorretos.')
     }
 }
