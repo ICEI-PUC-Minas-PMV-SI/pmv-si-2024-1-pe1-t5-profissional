@@ -9,14 +9,13 @@ btn.addEventListener('click', () => {
     }
 })
 
-function entrar() {
+function salvar() {
     let email = document.querySelector('#email')
     let userLabel = document.querySelector('#userLabel')
 
     let senha = document.querySelector('#senha')
     let senhaLabel = document.querySelector('#senhaLabel')
 
-    let msgError = document.querySelector('#msgError')
     let listaUser = []
 
     let userValid = {
