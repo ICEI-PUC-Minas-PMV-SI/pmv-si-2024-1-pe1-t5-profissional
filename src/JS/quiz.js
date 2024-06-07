@@ -60,6 +60,7 @@ questao_8.addEventListener('click', function(event){
 })
 
 // Teste para saber o total
+
 function totalScore() {
     var total_score = 0;
     for (let i = 1; i <= 8; i++) {
@@ -71,10 +72,10 @@ function totalScore() {
 
 
 function pegarInfoBaseadoNoScore(){
-    if(totalScore() < 7){
+    if(totalScore() < 1){
         var score_info = "Vocé é dev";
 
-    } else if (totalScore()> 7){
+    } else if (totalScore()> 2){
         var score_info= "Parabéns vc é mto dev"
     }
 
@@ -157,6 +158,9 @@ sub7.addEventListener('click', function(){
 
 
 })
+
+// RESULTADO - DE TESTE
+/*
 document.getElementById('submit8').addEventListener('click', function() {
     proximaQuestao(9);
     document.getElementById('grafico').style.display = 'block';
@@ -169,6 +173,59 @@ document.getElementById('submit8').addEventListener('click', function() {
 
 
 })
+
+*/
+
+//TESTE DO TESTE
+
+document.getElementById('submit8').addEventListener('click', function() {
+    // Supondo que a função proximaQuestao está definida em algum lugar
+    proximaQuestao(9);
+
+    // Mostra ou esconde os elementos conforme necessário
+    document.getElementById('grafico').style.display = 'block';
+    document.getElementById('questions_nav').style.display = 'none';
+    document.getElementById('loader').style.display = 'block';
+    document.getElementById('pic').style.display = 'block';
+    document.getElementById('progress_bar').style.display = 'none';
+
+    // Atualiza o total score e score info
+    document.getElementById("printtotalscore").innerHTML = totalScore();
+    document.getElementById("printscoreinfo").innerHTML = pegarInfoBaseadoNoScore();
+
+    // Lógica para mostrar uma imagem diferente dependendo das respostas
+    let totalCounts = countTotalResponses();
+    console.log("Total count of 'A' responses: " + totalCounts.A);
+    console.log("Total count of 'B' responses: " + totalCounts.B);
+    console.log("Total count of 'C' responses: " + totalCounts.C);
+
+    let resultImage = document.getElementById('result-image');
+    let resultLink = document.getElementById('result-link');
+    let roadmapTitle = document.getElementById('roadmap-title');
+
+    // Atualiza a imagem, o link e o título baseado nas contagens
+    if (totalCounts.A > totalCounts.B && totalCounts.A > totalCounts.C) {
+        resultLink.href = 'map-front.html'; // Link para A
+        roadmapTitle.innerText = 'Desenvolvimento Web'; // Título para A
+    } else if (totalCounts.B > totalCounts.A && totalCounts.B > totalCounts.C) {
+        resultLink.href = 'map-back.html'; // Link para B
+        roadmapTitle.innerText = 'Back End'; // Título para B
+    } else if (totalCounts.C > totalCounts.A && totalCounts.C > totalCounts.B) {
+        resultLink.href = 'map-dados.html'; // Link para C
+        roadmapTitle.innerText = 'Data Science'; // Título para C
+    } else {
+        resultImage.src = 'default.png'; // Caminho da imagem padrão se não houver um claro vencedor
+        resultLink.href = 'map-default.html'; // Link padrão
+        roadmapTitle.innerText = 'Desenvolvimento Web'; // Título padrão
+    }
+
+    // Exibe o contêiner da imagem
+    document.getElementById('pic').style.display = 'block';
+});
+
+
+
+
 
 
 
