@@ -1,5 +1,6 @@
-btn.addEventListener('click', () => {
 
+const btn = document.querySelector('#showPassword');
+btn.addEventListener('click', () => {
     let inputSenha = document.querySelector('#senha')
 
     if (inputSenha.getAttribute('type') == 'password') {
@@ -7,45 +8,59 @@ btn.addEventListener('click', () => {
     } else {
         inputSenha.setAttribute('type', 'password')
     }
-})
+});
+
 
 function salvar() {
-    let email = document.querySelector('#email')
-    let userLabel = document.querySelector('#userLabel')
+    let email = document.querySelector('#email').value;
+    let senha = document.querySelector('#senha').value;
 
-    let senha = document.querySelector('#senha')
-    let senhaLabel = document.querySelector('#senhaLabel')
-
-    let listaUser = []
-
-    let userValid = {
-        name: '',
-        email: '',
-        password: ''
+    
+    if (!isEmailValid(email)) {
+        alert("Por favor, insira um email válido.");
+        return;
     }
 
-    listaUser = JSON.parse(localStorage.getItem('users')) || []
-
-    listaUser.forEach((item) => {
-        if (email.value == item.email && senha.value == item.password) {
-
-            userValid = {
-                name: item.name,
-                email: item.email,
-                password: item.password
-            }
-
-        }
-    })
-
-    if (email.value == userValid.email && senha.value == userValid.password) {
-        window.location.href = "usu-logado.html";
-        let token = Math.random().toString(16).substr(2) + Math.random().toString(16).substr(2)
-        localStorage.setItem('token', token)
-
-        localStorage.setItem('userLogado', JSON.stringify(userValid))
-        alert('Login efetuado com sucesso!')
-    } else {
-        alert('Usuário ou Senha incorretos.')
+    
+    if (!validatePassword(senha, 8)) {
+        alert("A senha deve ter no mínimo 8 caracteres.");
+        return;
     }
+
+    
+    const users = JSON.parse(localStorage.getItem("users")) || [];
+    const usuarioExistente = users.find(user => user.email === email);
+    if (!usuarioExistente) {
+        alert("Email não cadastrado. Por favor, verifique o email digitado.");
+        return;
+    }
+
+   
+    usuarioExistente.senha = senha;
+    localStorage.setItem("users", JSON.stringify(users));
+
+    alert("Senha alterada com sucesso!");
 }
+
+
+function exibirEmails() {
+    const users = JSON.parse(localStorage.getItem("users")) || [];
+    const listaEmails = users.map(user => user.email);
+    const listaEmailsString = listaEmails.join(", ");
+    alert(`Emails cadastrados: ${listaEmailsString}`);
+}
+
+
+function isEmailValid(email) {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
+}
+
+
+function validatePassword(password, minChars) {
+    return password.length >= minChars;
+}
+
+
+const abaEmail = document.querySelector("#abrirEmails");
+abaEmail.addEventListener("click", exibirEmails);
