@@ -1,4 +1,3 @@
-
 const btn = document.querySelector('#showPassword');
 btn.addEventListener('click', () => {
     let inputSenha = document.querySelector('#senha')
@@ -15,6 +14,12 @@ function salvar() {
     let email = document.querySelector('#email').value;
     let senha = document.querySelector('#senha').value;
 
+    const users = JSON.parse(localStorage.getItem("users")) || [];
+    
+    if (users.length === 0) {
+        alert("Nenhum email cadastrado. Por favor, faça um cadastro primeiramente.");
+        return;
+    }
     
     if (!isEmailValid(email)) {
         alert("Por favor, insira um email válido.");
@@ -27,8 +32,6 @@ function salvar() {
         return;
     }
 
-    
-    const users = JSON.parse(localStorage.getItem("users")) || [];
     const usuarioExistente = users.find(user => user.email === email);
     if (!usuarioExistente) {
         alert("Email não cadastrado. Por favor, verifique o email digitado.");
