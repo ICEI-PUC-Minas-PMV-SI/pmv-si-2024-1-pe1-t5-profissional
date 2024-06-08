@@ -43,6 +43,7 @@ function salvar() {
     localStorage.setItem("users", JSON.stringify(users));
 
     alert("Senha alterada com sucesso!");
+    window.location.href = "fazer-log.html";
 }
 
 
