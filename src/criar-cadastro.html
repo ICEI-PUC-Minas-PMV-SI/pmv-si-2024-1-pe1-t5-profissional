@@ -7,6 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dev Path: Cadastro</title>
   <link rel="stylesheet" href="CSS/style-cadastro.css">
+  <a href="crud.html">Gerenciar Usuários</a>
+  <script src="JS/cadastro.js" defer></script>
 </head>
 
 <body>
@@ -14,33 +16,33 @@
     <h1>DEV PATH</h1>
   </header>
   <br>
-<main>
-  <div class="wrapper">
+  <main>
+    <div class="wrapper">
       <h2>Cadastro</h2>
-      <form action="#">
-      <div class="input-box">
-        <input type="text" placeholder="Nome" required>
-      </div>
+      <form id="Form" action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Nome" id="Nome">
+          <label id="labelNome" for="nome"></label>
+        </div>
 
-      <div class="input-box">
-        <input type="text" placeholder="Email" required>
-      </div>
+        <div class="input-box">
+          <input type="text" placeholder="Email" id="Email">
+          <label id="labelEmail" for="email"></label>
+        </div>
 
-      <div class="input-box">
-        <input type="password" placeholder="Senha" required>
-      </div>
-<br>
-      <button type="submit" class="btn">Cadastrar</button>
-
-      <div class="login-link"></div>
-      <br>
-      <p>Já possui login? <a href="fazer-log.html">Fazer Login</a></p>
-
-    </form>
-    <img src="IMG/IMGpngLOGOazul.png" width="110" height="80" alt="Logo DevPath">
-
-  </div>
-</main>
+        <div class="input-box">
+          <input type="password" placeholder="Senha" id="senha">
+          <label id="labelSenha" for="senha"></label>
+        </div>
+        <br>
+        <button type="submit" class="btn">Cadastrar</button>
+        <div class="login-link"></div>
+        <br>
+        <p>Já possui login? <a href="fazer-log.html">Fazer Login</a></p>
+      </form>
+      <img src="IMG/IMGpngLOGOazul.png" width="110" height="80" alt="Logo DevPath">
+    </div>
+  </main>
 
   <footer>
     <div>

@@ -141,7 +141,9 @@ main {
     font-size: 24px;
     font-weight: bold;
 }
-
+.roadmap-links{
+    padding: 20px;
+}
 
 .roadmap-links a{
     padding: 10px;

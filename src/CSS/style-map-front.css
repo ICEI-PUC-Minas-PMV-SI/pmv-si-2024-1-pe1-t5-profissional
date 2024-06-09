@@ -143,6 +143,7 @@ main {
     font-weight: bold;
 }
 
+
 .roadmap-links{
     padding: 20px;
 }
@@ -262,6 +263,9 @@ p div footer {
     }
 }
 @media (max-width: 768px) {
+    p .banner-text{
+font-size: 14px;
+    }
     .banner-img {
       width: 100%; 
     }

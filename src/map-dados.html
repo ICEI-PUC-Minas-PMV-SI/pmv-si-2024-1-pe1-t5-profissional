@@ -28,14 +28,17 @@
                     <h1>Dev Path</h1>
                 </div>
                 <div>
-                    <p>Olá,<br />estudante</p>
+                    <p id="logado"> </p>
                     <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
                         <circle cx="22" cy="22" r="22" fill="#D9D9D9" />
                         <image href="IMG/IMGpngIMAGEMFOTO.png" width="14" height="14" x="15" y="15" />
                     </svg>
                 </div>
                 <div>
-                    <a class="btn" href="index.html">LOGOUT</a>
+                    <button class="btn" onclick='logout()'>LOGOUT</button>
+                </div>
+                <div>
+                    <a href="crud.html" class="btn">Editar Usuário</a>
                 </div>
             </nav>
             <section class="banner">
@@ -54,6 +57,7 @@
     </header>
     <main>
         <section id="roadmap">
+            
             <div class="conceitos-basicos">
                 <p>Conceitos Básicos<br/><p>
                     <div class="roadmap-links">
@@ -114,7 +118,7 @@
                     <div class="accordion-body">
                         <div class="accordion-body-links">
                             <ul>
-                                <a href="https://youtu.be/F_cQSB3l0W0?si=F-iqASYc3lgfs4Uc"target="_blank">Entenda mais sobre SQL aqui.</a></li>
+                                <a href="https://www.youtube.com/watch?v=ncgEQBONI_w&pp=ygUDc3Fs">Entenda mais sobre SQL aqui.</a></li>
                                 <li><a href="https://www.youtube.com/watch?v=4iGsQYPlZZo&pp=ygUSSURFSUFTIFBST0pFVE8gU1FM">Ideias de Projeto</a>
                         </div>
                     </div>
@@ -190,5 +194,6 @@
         </div>
     </footer>
     <script src="JS/maps.js"></script>
+    <script src="JS/usu-logado.js"></script>
 </body>
 </html>

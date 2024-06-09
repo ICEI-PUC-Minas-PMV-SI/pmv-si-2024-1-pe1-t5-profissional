@@ -5,10 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/style-quiz.css">
+    <link rel="stylesheet" href="CSS/style-quiz-loading.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+        
     <title>Dev Path: Quiz</title>
 </head>
 <body>
@@ -38,176 +40,303 @@
                 </nav>
             
         </header>
-
+         <!-- Conteúdo do Quiz -->
         <main>
-                <div class="container">	
-                    <div class="row">
-                        <div class="two-thirds column">
+                
+                <div class="container">
+                    <div id="quiz-content" >
+                    <div class="quiz-form">    	
+                    <div class="row" >
+                        <div class="two-thirds column" >
                         <h2>Quiz</h2>
                         <div id="progress_bar"></div>
-                            <form class="questions_box">  
-                             
-                            <div id="qu-1" class="question">
-                                <h2>Questão 1</h2>
-                                    <h3>Como você prefere abordar a resolução de problemas?</h3>
-                                <div class="respostas">
-                                    
-                                    <input id="q1-resposta-A" type="radio" class="option" value=1>Desenvolvendo funcionalidades complexas para garantir o funcionamento perfeito (Desenvolvimento Back-End)<br>
-                                </div>
-                                <div class="respostas">
-                                    <input id="q1-resposta-B" type="radio" class="option" value=2>Organizando e gerenciando as informações para eficiência e fácil acesso (Administração de Banco de Dados)<br>
-                                </div>
-                                    <div class="respostas">    
-                                    <input id="q1-resposta-C" type="radio" class="option" value=3>Criando a aparência e a interatividade de websites ou aplicativos (Desenvolvimento Front-End)<br>
-                                </div>   
-                                    <div id="submit1" class="button">Enviar Resposta</div>
-                            <div class="clearfix"></div>
-                            </div>    
-                            
-                            <div id="qu-2" class="question">
-                                <h2>Questão 2</h2>
-                                    <h3>Suponha que você tenha a oportunidade de liderar um projeto de tecnologia do início ao fim. Qual aspecto desse projeto você consideraria mais gratificante?</h3>
-                                    <div class="respostas">
-                                        <input id="q1-resposta-A" type="radio" class="option" value="1">Ver a reação dos usuários diante de uma interface amigável e inovadora. (Experiência do Usuário)<br>
-                                    </div>    
-                                        <div class="respostas">
-                                         <input id="q1-resposta-B" type="radio" class="option" value="2">Observar a evolução e crescimento dos dados conforme são processados e analisados. (Gestão de Dados)<br>
-                                    </div>    
-                                         <div class="respostas">
-                                            <input id="q1-resposta-C" type="radio" class="option" value="3">Testemunhar o funcionamento eficiente e confiável de um sistema complexo e integrado. (Gerenciamento de Sistemas)<br>
-                                    </div>    
-                                            <div id="submit2" class="button">Enviar Resposta</div>
-                                    <div class="clearfix"></div>
-                            </div>
+                        <form class="questions_box">                              
+                                            <div id="qu-1" class="question">
+                                                <h2>Questão 1</h2>
+                                                    <h3>Como você prefere abordar a resolução de problemas?</h3>
+                                                <div class="respostas">
+                                                    
+                                                    <input id="q1-resposta-A" name="qu-1" type="radio" class="option" value="1" required>Desenvolvendo funcionalidades complexas para garantir o funcionamento perfeito (Desenvolvimento Back-End)<br>
+                                                </div>
+                                                <div class="respostas">
+                                                    <input id="q1-resposta-B" name="qu-1" type="radio" class="option" value="2" required>Organizando e gerenciando as informações para eficiência e fácil acesso (Administração de Banco de Dados)<br>
+                                                </div>
+                                                    <div class="respostas">    
+                                                    <input id="q1-resposta-C" name="qu-1" type="radio" class="option" value="3" required>Criando a aparência e a interatividade de websites ou aplicativos (Desenvolvimento Front-End)<br>
+                                                </div>   
+                                                    <button id="submit1" class="button"  type="submit">Enviar Resposta</button>
+                                                <div class="clearfix"></div>
+                                            </div>    
+                                            
+                                            <div id="qu-2" class="question">
+                                                <h2>Questão 2</h2>
+                                                    <h3>Suponha que você tenha a oportunidade de liderar um projeto de tecnologia do início ao fim. Qual aspecto desse projeto você consideraria mais gratificante?</h3>
+                                                    <div class="respostas">
+                                                        <input id="q1-resposta-A" name="qu-2" type="radio" class="option" value="1" required>Ver a reação dos usuários diante de uma interface amigável e inovadora. (Experiência do Usuário)<br>
+                                                    </div>    
+                                                        <div class="respostas">
+                                                        <input id="q1-resposta-B" name="qu-2" type="radio" class="option" value="2" required>Observar a evolução e crescimento dos dados conforme são processados e analisados. (Gestão de Dados)<br>
+                                                    </div>    
+                                                        <div class="respostas">
+                                                            <input id="q1-resposta-C" name="qu-2" type="radio" class="option" value="3" required>Testemunhar o funcionamento eficiente e confiável de um sistema complexo e integrado. (Gerenciamento de Sistemas)<br>
+                                                    </div>    
+                                                            <button id="submit2" class="button"  type="submit">Enviar Resposta</button>
+                                                    <div class="clearfix"></div>
+                                            </div>
 
-                            <div id="qu-3" class="question">
-                                <h2>Questão 3</h2>
-                                    <h3>Imagine que você está construindo algo incrível na internet. Qual destas atividades te atrai mais?</h3>
-                                    <div class="respostas">
-                                    <input id="q1-resposta-A" type="radio" class="option" value="1">Desenvolver funcionalidades complexas para garantir o funcionamento perfeito (Desenvolvimento Back-End)<br>
-                                    </div>
-                                    <div class="respostas">
-                                    <input id="q1-resposta-B" type="radio" class="option" value="2">Organizar e gerenciar as informações para eficiência e fácil acesso (Administração de Banco de Dados)<br>
-                                    </div>
-                                    <div class="respostas">
-                                    <input id="q1-resposta-C" type="radio" class="option" value="3">Criar a aparência e a interatividade de websites ou aplicativos (Desenvolvimento Front-End)<br>
-                                    </div>
-                                    <div id="submit3" class="button">Enviar Resposta</div>
-                                    <div class="clearfix"></div>
-                            </div>
+                                            <div id="qu-3" class="question">
+                                                <h2>Questão 3</h2>
+                                                    <h3>Imagine que você está construindo algo incrível na internet. Qual destas atividades te atrai mais?</h3>
+                                                    <div class="respostas">
+                                                    <input id="q1-resposta-A" name="qu-3" type="radio" class="option" value="1" required>Desenvolver funcionalidades complexas para garantir o funcionamento perfeito (Desenvolvimento Back-End)<br>
+                                                    </div>
+                                                    <div class="respostas">
+                                                    <input id="q1-resposta-B" name="qu-3" type="radio" class="option" value="2" required>Organizar e gerenciar as informações para eficiência e fácil acesso (Administração de Banco de Dados)<br>
+                                                    </div>
+                                                    <div class="respostas">
+                                                    <input id="q1-resposta-C" name="qu-3" type="radio" class="option" value="3" required>Criar a aparência e a interatividade de websites ou aplicativos (Desenvolvimento Front-End)<br>
+                                                    </div>
+                                                    <button id="submit3" class="button"  type="submit">Enviar Resposta</button>
+                                                    <div class="clearfix"></div>
+                                            </div>
 
-                            <div id="qu-4" class="question">
-                                <h2>Questão 4</h2>
-                                    <h3>Se você fosse resolver um quebra-cabeça complexo, qual abordagem você acharia mais interessante?</h3>
-                                    <div class="respostas">
-                                    <input id="q4-resposta-A" type="radio"  class="option" value="1"> Desenvolvedor Front-End, criando a aparência e interatividade (Desenvolvimento Front-End)<br>
-                                    </div>
-                                    <div class="respostas">
-                                    <input id="q4-resposta-B" type="radio"  class="option" value="2">Administrador de Banco de Dados, organizando e gerenciando informações (Administração de Banco de Dados)<br>
-                                    </div>
-                                    <div class="respostas">
-                                    <input id="q4-resposta-C" type="radio"  class="option" value="3"> Desenvolvedor Back-End, criando funcionalidades complexas (Desenvolvimento Back-End)<br>
-                                    </div>
-                                    <div id="submit4" class="button">Enviar Resposta</div>
-                                    <div class="clearfix"></div>
-                            </div>
+                                            <div id="qu-4" class="question">
+                                                <h2>Questão 4</h2>
+                                                    <h3>Se você fosse resolver um quebra-cabeça complexo, qual abordagem você acharia mais interessante?</h3>
+                                                    <div class="respostas">
+                                                    <input id="q4-resposta-A" name="qu-4" type="radio"  class="option" value="1" required> Desenvolvedor Front-End, criando a aparência e interatividade (Desenvolvimento Front-End)<br>
+                                                    </div>
+                                                    <div class="respostas">
+                                                    <input id="q4-resposta-B" name="qu-4" type="radio"  class="option" value="2" required>Administrador de Banco de Dados, organizando e gerenciando informações (Administração de Banco de Dados)<br>
+                                                    </div>
+                                                    <div class="respostas">
+                                                    <input id="q4-resposta-C" name="qu-4" type="radio"  class="option" value="3" required> Desenvolvedor Back-End, criando funcionalidades complexas (Desenvolvimento Back-End)<br>
+                                                    </div>
+                                                    <button id="submit4" class="button"  type="submit">Enviar Resposta</button>
+                                                    <div class="clearfix"></div>
+                                            </div>
 
-                            <div id="qu-5" class="question">
-                                <h2>Questão 5</h2>
-                                    <h3>Qual destas áreas tecnológicas mais desperta seu interesse?</h3>
-                                    <div class="respostas">
-                                    <input id="q5-resposta-A" type="radio"  class="option" value="1">Desenvolvimento Web Front-End, focado em design de interfaces (Desenvolvimento Front-End)<br>
-                                    </div>
-                                    <div class="respostas">
-                                    <input id="q5-resposta-B" type="radio"  class="option" value="2">Administração de Banco de Dados, organização eficiente de dados (Administração de Banco de Dados)<br>
-                                    </div>
-                                    <div class="respostas">
-                                    <input id="q5-resposta-C" type="radio"  class="option" value="3">Desenvolvimento Web Back-End, lógica de programação e sistemas (Desenvolvimento Back-End)<br>
-                                    </div>
-                                    <div id="submit5" class="button">Enviar Resposta</div>
-                                    <div class="clearfix"></div>
-                            </div>
+                                            <div id="qu-5" class="question">
+                                                <h2>Questão 5</h2>
+                                                    <h3>Qual destas áreas tecnológicas mais desperta seu interesse?</h3>
+                                                    <div class="respostas">
+                                                    <input id="q5-resposta-A" name="qu-5" type="radio"  class="option" value="1" required>Desenvolvimento Web Front-End, focado em design de interfaces (Desenvolvimento Front-End)<br>
+                                                    </div>
+                                                    <div class="respostas">
+                                                    <input id="q5-resposta-B" name="qu-5" type="radio"  class="option" value="2" required>Administração de Banco de Dados, organização eficiente de dados (Administração de Banco de Dados)<br>
+                                                    </div>
+                                                    <div class="respostas">
+                                                    <input id="q5-resposta-C" name="qu-5" type="radio"  class="option" value="3" required>Desenvolvimento Web Back-End, lógica de programação e sistemas (Desenvolvimento Back-End)<br>
+                                                    </div>
+                                                    <button id="submit5" class="button"  type="submit">Enviar Resposta</button>
+                                                    <div class="clearfix"></div>
+                                            </div>
 
-                            <div id="qu-6" class="question">
-                                <h2>Questão 6</h2>
-                                    <h3>Em qual tipo de projeto você se imagina trabalhando?</h3>
-                                    <div class="respostas">
-                                    <input id="q6-resposta-A" type="radio"  class="option"" value="1">Projetos centrados na experiência do usuário (Desenvolvimento Front-End)<br>
-                                    </div>
-                                    <div class="respostas">
-                                    <input id="q6-resposta-B" type="radio"  class="option"value="2">Projetos centrados na organização eficiente e segura de dados (Administração de Banco de Dados)<br>
-                                    </div>
-                                    <div class="respostas">
-                                    <input id="q6-resposta-C" type="radio"  class="option" value="3">Projetos inovadores e desafiadores de desenvolvimento (Desenvolvimento Back-End)<br>
-                                    </div>
-                                    <div id="submit6" class="button">Enviar Resposta</div>
-                                    <div class="clearfix"></div>
-                            </div>
+                                            <div id="qu-6" class="question">
+                                                <h2>Questão 6</h2>
+                                                    <h3>Em qual tipo de projeto você se imagina trabalhando?</h3>
+                                                    <div class="respostas">
+                                                    <input id="q6-resposta-A" name="qu-6" type="radio"  class="option"" value="1" required>Projetos centrados na experiência do usuário (Desenvolvimento Front-End)<br>
+                                                    </div>
+                                                    <div class="respostas">
+                                                    <input id="q6-resposta-B" name="qu-6" type="radio"  class="option"value="2" required>Projetos centrados na organização eficiente e segura de dados (Administração de Banco de Dados)<br>
+                                                    </div>
+                                                    <div class="respostas">
+                                                    <input id="q6-resposta-C" name="qu-6" type="radio"  class="option" value="3" required>Projetos inovadores e desafiadores de desenvolvimento (Desenvolvimento Back-End)<br>
+                                                    </div>
+                                                    <button id="submit6" class="button"  type="submit">Enviar Resposta</button>
+                                                    <div class="clearfix"></div>
+                                            </div>
 
-                            <div id="qu-7" class="question">
-                                <h2>Questão 7</h2>
-                                    <h3>Se você fosse um personagem em uma equipe de heróis, qual seria o seu papel e por quê?</h3>
-                                    <div class="respostas">
-                                    <input id="q7-resposta-A" type="radio"   class="option" value="1">Eu seria o Estrategista, traçando planos e estratégias para enfrentar desafios complexos e garantir o sucesso da missão. (Desenvolvimento Back-End)<br>
-                                    </div>
-                                    <div class="respostas">
-                                    <input id="q7-resposta-B" type="radio"   class="option" value="2">Eu seria o Ágil e versátil, atuando rapidamente para implementar soluções criativas e inovadoras. (Desenvolvimento Front-End)<br>
-                                    </div>
-                                    <div class="respostas">
-                                    <input id="q7-resposta-C" type="radio"   class="option" value="3">Eu seria o Guardião dos Dados, protegendo e gerenciando os recursos vitais do grupo para garantir sua integridade e disponibilidade. (Administração de Banco de Dados)<br>
-                                    </div>
-                                    <div id="submit7" class="button">Enviar Resposta</div>
-                                    <div class="clearfix"></div>
-                            </div>
+                                            <div id="qu-7" class="question">
+                                                <h2>Questão 7</h2>
+                                                    <h3>Se você fosse um personagem em uma equipe de heróis, qual seria o seu papel e por quê?</h3>
+                                                    <div class="respostas">
+                                                    <input id="q7-resposta-A" name="qu-7" type="radio"   class="option" value="1" required>Eu seria o Estrategista, traçando planos e estratégias para enfrentar desafios complexos e garantir o sucesso da missão. (Desenvolvimento Back-End)<br>
+                                                    </div>
+                                                    <div class="respostas">
+                                                    <input id="q7-resposta-B" name="qu-7" type="radio"   class="option" value="2" required>Eu seria o Ágil e versátil, atuando rapidamente para implementar soluções criativas e inovadoras. (Desenvolvimento Front-End)<br>
+                                                    </div>
+                                                    <div class="respostas">
+                                                    <input id="q7-resposta-C" name="qu-7" type="radio"   class="option" value="3" required>Eu seria o Guardião dos Dados, protegendo e gerenciando os recursos vitais do grupo para garantir sua integridade e disponibilidade. (Administração de Banco de Dados)<br>
+                                                    </div>
+                                                    <button id="submit7" class="button"  type="submit">Enviar Resposta</button>
+                                                    <div class="clearfix"></div>
+                                            </div>
 
-                            <div id="qu-8" class="question">
-                                <h2>Questão 8</h2>
-                                    <h3>Se sua vida de estudante fosse um episódio de uma série, qual seria a cena mais marcante relacionada à tecnologia?</h3>
-                                    <div class="respostas">
-                                    <input id="q8-resposta-A" type="radio"  class="option" value="1">Seria o momento em que você cria um site ou aplicativo para ajudar os colegas de classe a se organizarem melhor nos estudos. (Desenvolvimento Front-End)<br>
-                                    </div>
-                                    <div class="respostas">
-                                    <input id="q8-resposta-B" type="radio"  class="option" value="2">Seria a cena em que você desenvolve um sistema automatizado para ajudar na correção de provas ou trabalhos dos professores. (Desenvolvimento Back-End)<br>
-                                    </div>
-                                    <div class="respostas">                                    
-                                    <input id="q8-resposta-C" type="radio"  class="option" value="3">Seria quando você implementa um sistema de armazenamento de notas e informações escolares que facilita o acesso e a segurança dos dados dos alunos. (Administração de Banco de Dados)<br>
-                                    </div>
-                                    <div id="submit8" class="button">Enviar Resposta</div>
-                                    <div class="clearfix"></div>
-                            </div>
-                            
-                            <div id="qu-9" class="question"> 
-                                <h3>O seu Roadmap é: </h3><br>
-                                <h1>Desenvolvimento Web</h1>
-                                <div id="grafico">
-                                    <image src="IMG/IMGjpgGRAFICO.png" width="200" height="200" />
-                                </div>     
-                            </div>
-                             
-                            
-                           
-                            
-                            <div id="questions_nav">
-                                <div class="ball" onclick="selectBall(1)"></div>
-                                <div class="ball" onclick="selectBall(2)"></div>
-                                <div class="ball" onclick="selectBall(3)"></div>
-                                <div class="ball" onclick="selectBall(4)"></div>
-                                <div class="ball" onclick="selectBall(5)"></div>
-                                <div class="ball" onclick="selectBall(6)"></div>
-                                <div class="ball" onclick="selectBall(7)"></div>
-                                <div class="ball" onclick="selectBall(8)"></div>
-                            </div>
+                                            <div id="qu-8" class="question">
+                                                <h2>Questão 8</h2>
+                                                    <h3>Se sua vida de estudante fosse um episódio de uma série, qual seria a cena mais marcante relacionada à tecnologia?</h3>
+                                                    <div class="respostas">
+                                                    <input id="q8-resposta-A" name="qu-8" type="radio"  class="option" value="1" required>Seria o momento em que você cria um site ou aplicativo para ajudar os colegas de classe a se organizarem melhor nos estudos. (Desenvolvimento Front-End)<br>
+                                                    </div>
+                                                    <div class="respostas">
+                                                    <input id="q8-resposta-B" name="qu-8" type="radio"  class="option" value="2" required>Seria a cena em que você desenvolve um sistema automatizado para ajudar na correção de provas ou trabalhos dos professores. (Desenvolvimento Back-End)<br>
+                                                    </div>
+                                                    <div class="respostas">                                    
+                                                    <input id="q8-resposta-C" name="qu-8" type="radio"  class="option" value="3" required>Seria quando você implementa um sistema de armazenamento de notas e informações escolares que facilita o acesso e a segurança dos dados dos alunos. (Administração de Banco de Dados)<br>
+                                                    </div>
+                                                    <button  type="submit" id="submit8" class="button"> Enviar Resposta</button>
+                                                    <div class="clearfix"></div>
+                                            </div>
+                                            
+                                            <div class="style-quiz-loading" >        
+                                            <!--Tentando adicionar o loader -->
+                                                    <div class="quiz-loading">
+                                                        <div id="loader">
+                                                            <div class="scene">
+                                                                <div class="forest">
+                                                                <div class="tree tree1">
+                                                                    <div class="branch branch-top"></div>
+                                                                    <div class="branch branch-middle"></div>
+                                                                </div>
+                                                            
+                                                                <div class="tree tree2">
+                                                                    <div class="branch branch-top"></div>
+                                                                    <div class="branch branch-middle"></div>
+                                                                    <div class="branch branch-bottom"></div>
+                                                                </div>
+                                                            
+                                                                <div class="tree tree3">
+                                                                    <div class="branch branch-top"></div>
+                                                                    <div class="branch branch-middle"></div>
+                                                                    <div class="branch branch-bottom"></div>
+                                                                </div>
+                                                            
+                                                                <div class="tree tree4">
+                                                                    <div class="branch branch-top"></div>
+                                                                    <div class="branch branch-middle"></div>
+                                                                    <div class="branch branch-bottom"></div>
+                                                                </div>
+                                                            
+                                                                <div class="tree tree5">
+                                                                    <div class="branch branch-top"></div>
+                                                                    <div class="branch branch-middle"></div>
+                                                                    <div class="branch branch-bottom"></div>
+                                                                </div>
+                                                            
+                                                                <div class="tree tree6">
+                                                                    <div class="branch branch-top"></div>
+                                                                    <div class="branch branch-middle"></div>
+                                                                    <div class="branch branch-bottom"></div>
+                                                                </div>
+                                                            
+                                                                <div class="tree tree7">
+                                                                    <div class="branch branch-top"></div>
+                                                                    <div class="branch branch-middle"></div>
+                                                                    <div class="branch branch-bottom"></div>
+                                                                </div>
+                                                                </div>
+                                                                
+                                                                <div class="tent">
+                                                                    <div class="roof"></div>
+                                                                    <div class="roof-border-left">
+                                                                    <div class="roof-border roof-border1"></div>
+                                                                    <div class="roof-border roof-border2"></div>
+                                                                    <div class="roof-border roof-border3"></div>
+                                                                    </div>
+                                                                    <div class="entrance">
+                                                                    <div class="door left-door">
+                                                                        <div class="left-door-inner"></div>
+                                                                    </div>
+                                                                    <div class="door right-door">
+                                                                        <div class="right-door-inner"></div>
+                                                                    </div>
+                                                                    </div>
+                                                                </div>
+                                                            
+                                                                <div class="floor">
+                                                                    <div class="ground ground1"></div>
+                                                                    <div class="ground ground2"></div>
+                                                                </div>
+                                                                
+                                                                <div class="fireplace">
+                                                                <div class="support"></div>
+                                                                <div class="support"></div>
+                                                                <div class="bar"></div>
+                                                                <div class="hanger"></div>
+                                                                <div class="smoke"></div>
+                                                                <div class="pan"></div>
+                                                                <div class="fire">
+                                                                    <div class="line line1">
+                                                                    <div class="particle particle1"></div>
+                                                                    <div class="particle particle2"></div>
+                                                                    <div class="particle particle3"></div>
+                                                                    <div class="particle particle4"></div>
+                                                                    </div>
+                                                                    <div class="line line2">
+                                                                    <div class="particle particle1"></div>
+                                                                    <div class="particle particle2"></div>
+                                                                    <div class="particle particle3"></div>
+                                                                    <div class="particle particle4"></div>
+                                                                    </div>
+                                                                    <div class="line line3">
+                                                                    <div class="particle particle1"></div>
+                                                                    <div class="particle particle2"></div>
+                                                                    <div class="particle particle3"></div>
+                                                                    <div class="particle particle4"></div>
+                                                                    </div>
+                                                                </div>
+                                                                </div>
+                                                                
+                                                                <div class="time-wrapper">
+                                                                <div class="time">
+                                                                    <div class="day"></div>
+                                                                    <div class="night">
+                                                                    <div class="moon"></div>
+                                                                    <div class="star star1 star-big"></div>
+                                                                    <div class="star star2 star-big"></div>
+                                                                    <div class="star star3 star-big"></div>
+                                                                    <div class="star star4"></div>
+                                                                    <div class="star star5"></div>
+                                                                    <div class="star star6"></div>
+                                                                    <div class="star star7"></div>
+                                                                    </div>
+                                                                </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>   
+                                                </div> 
+                                                <div class="quiz-result" style="display: none;">
+                                                    <div id="qu-9" class="question"> 
+                                                        <h3>O seu Roadmap é: </h3><br>
+                                                        <h1 id="roadmap-title"></h1>
 
-                        </form>
-                             
+                                                        <div id="grafico">
+                                                        <!--
+                                                            <image src="IMG/IMGjpgGRAFICO.png" width="200" height="200" />
+                                                        -->
+                                                        </div> 
+                                                        <div id="printtotalscore"></div>
+                                                        <div id="printscoreinfo"></div>  
+                                                    </div>
+                                                </div>     
+                    
+                                        
+                                            
+                                            <div id="questions_nav">
+                                                <div class="ball" onclick="selectBall(1)"></div>
+                                                <div class="ball" onclick="selectBall(2)"></div>
+                                                <div class="ball" onclick="selectBall(3)"></div>
+                                                <div class="ball" onclick="selectBall(4)"></div>
+                                                <div class="ball" onclick="selectBall(5)"></div>
+                                                <div class="ball" onclick="selectBall(6)"></div>
+                                                <div class="ball" onclick="selectBall(7)"></div>
+                                                <div class="ball" onclick="selectBall(8)"></div>
+                                            </div>
+                                        </div>            
+                            </form>
+                        </div>     
                     </div>
                 </div>
             </div>
-            <a href="map-front.html">
-            <div id="pic">
-                <image src="IMG/IMGpngFRONTend.png" width="200" height="200" />
-            </div>  
-        </a>
+        </div>
+        
+                <div id="pic" style="display:none;">
+                    <a id="result-link" href="" target="_blank" class="button">Acessar Roadmap</a>
+
+                </div> 
         </main>
 
         <footer>
