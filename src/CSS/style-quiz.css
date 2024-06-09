@@ -387,3 +387,22 @@ main {
 }
 
 
+
+
+#result-link {
+    text-decoration: none;
+    padding: 20px 30px;
+    margin-top: 330px;
+    margin-left:208px ;
+    background-color: #248fb6;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    display: inline-flex; /* Usar inline-flex em vez de block ou inline-block */
+  align-items: center; /* Alinhar o conteúdo verticalmente */
+  justify-content: center; /* Alinhar o conteúdo horizontalmente */
+  }
+  
+  #result-link:hover {
+    background-color: #6c94be;
+  }

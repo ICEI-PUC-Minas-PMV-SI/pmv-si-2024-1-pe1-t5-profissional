@@ -73,10 +73,10 @@ function totalScore() {
 
 function pegarInfoBaseadoNoScore(){
     if(totalScore() < 1){
-        var score_info = "Vocé é dev";
+        var score_info = "";
 
     } else if (totalScore()> 2){
-        var score_info= "Parabéns vc é mto dev"
+        var score_info= ""
     }
 
     return score_info;
@@ -366,26 +366,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
-// Para mostrar o loading
-document.querySelector('.quiz-form').addEventListener('submit', function(event) {
-    // Impede que o formulário seja enviado normalmente
-    event.preventDefault();
 
-    // Mostra o loader imediatamente
-    document.querySelector('.style-quiz-loading').style.display = 'block';
-
-    // Define a duração do tempo de exibição do loader (em milissegundos)
-    var loaderDisplayTime = 5000; // 5 segundos
-
-    // Simula um atraso antes de mostrar o resultado
-    setTimeout(function() {
-        // Esconde o loader
-        document.querySelector('.style-quiz-loading').style.display = 'none';
-
-        // Mostra o resultado do quiz
-        document.querySelector('.quiz-result').style.display = 'block';
-    }, loaderDisplayTime); 
-});
 
 
 
