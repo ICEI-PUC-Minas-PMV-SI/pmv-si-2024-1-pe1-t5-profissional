@@ -41,6 +41,14 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
 **Resultado obtido** | Sucesso.
 
+**Caso de Teste** | **CT03 - Alterar dados da conta**
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário logado clicará em "Editar Usuário" <br> 2) A aplicação verifica as alterações e edita os dados conforme informados. <br> 
+**Requisitos associados** | RF-028
+**Resultado esperado** | Usuário editado.
+**Dados de entrada** | Inserção de dados válidos nas edições.
+**Resultado obtido** | Sucesso.
+
 **Caso de Teste** | **CT03 - Acessar roadmap**
  :--------------: | ------------
 **Procedimento**  | 1) Usuário clica no botão "Saiba Mais" do roadmap de sua correspondência <br> 2) A aplicação verifica e o encaminha para o roadmap correspondente. <br> 
