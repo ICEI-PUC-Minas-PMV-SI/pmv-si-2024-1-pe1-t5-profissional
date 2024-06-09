@@ -49,7 +49,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Inserção de dados válidos nas edições.
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT03 - Acessar roadmap**
+**Caso de Teste** | **CT04 - Acessar roadmap**
  :--------------: | ------------
 **Procedimento**  | 1) Usuário clica no botão "Saiba Mais" do roadmap de sua correspondência <br> 2) A aplicação verifica e o encaminha para o roadmap correspondente. <br> 
 **Requisitos associados** | RF-015
@@ -57,7 +57,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Solicitação de visualização do roadmap selecionado.
 **Resultado obtido** | Sucesso
 
-**Caso de Teste** | **CT04 - Acessar quiz**
+**Caso de Teste** | **CT05 - Acessar quiz**
  :--------------: | ------------
 **Procedimento**  | 1) Usuário clica no botão "Acessar Quiz"  <br> 2) A aplicação verifica e o encaminha para o quiz. <br> 
 **Requisitos associados** | RF-017
@@ -65,7 +65,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Solicitação de visualização do quiz.
 **Resultado obtido** | Sucesso
 
-**Caso de Teste** | **CT05 - Responder quiz e visuzalizar sugestão**
+**Caso de Teste** | **CT06 - Responder quiz e visuzalizar sugestão**
  :--------------: | ------------
 **Procedimento**  | 1) Usuário visualiza oito perguntas que apareceram em recorrência de suas respostas  <br> 2) Usuário seleciona uma, duas ou três das opções de resposta.  <br> 3)  A aplicação verifica suas respostas e o fornece a sugestão de roadmap. <br>
 **Requisitos associados** | RF-018
@@ -73,7 +73,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Respostas do quiz.
 **Resultado obtido** | Sucesso
 
-**Caso de Teste** | **CT06 - Acessar conteúdos do roadmap**
+**Caso de Teste** | **CT07 - Acessar conteúdos do roadmap**
  :--------------: | ------------
 **Procedimento**  | 1) Usuário clicar no conteúdo que é de seu interesse  <br> 2) A aplicação o encaminha para o material do conteúdo correspondente  <br> 
 **Requisitos associados** | RF-027
