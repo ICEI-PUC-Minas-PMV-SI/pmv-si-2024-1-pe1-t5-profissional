@@ -88,24 +88,29 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |*Caso de Teste*                                 |*CT01 - Criar conta*                                         |
 |---|---|
 |Requisito Associado | RF-006 - A aplicação deve permitir a criação de usuário por Nome,Email e Senha|
-|Link do vídeo do teste realizado: https://1drv.ms/v/s!Aqv2merruqSDgQ9SDmZxVexgScds
+|Link do vídeo do teste realizado: | https://1drv.ms/v/s!Aqv2merruqSDgQ9SDmZxVexgScds
 
 |*Caso de Teste*                                 |*CT02 - Acessar conta*                                        |
 |---|---|
 |Requisito Associado | RF-011 - A aplicação deve permitir a inserção de login por Email e Senha|
-|Link do vídeo do teste realizado: https://1drv.ms/v/s!Aqv2merruqSDgQ4CPF_AINvL5uei 
+|Link do vídeo do teste realizado: | https://1drv.ms/v/s!Aqv2merruqSDgQ4CPF_AINvL5uei 
 
-|*Caso de Teste*                                 |*CT03 - Acessar roadmap*                                        |
-|---|---|
-|Requisito Associado | RF-015 - A aplicação deve permitir a navegação para página de cada roadmap (front-end, back-end e data-science)|
-|Link do vídeo do teste realizado: |  (Coloque o link do vídeo aqui)| 
-
-|*Caso de Teste*                                 |*CT04 - Editar Cadastro*                                        |
+|*Caso de Teste*                                 |*CT03 - Editar Cadastro*                                        |
 |---|---|
 |Requisito Associado | RF-028 - A aplicação deve permitir que o usuário edite e faça a alteração dos seus dados|
 |Link do vídeo do teste realizado: |  (Coloque o link do vídeo aqui)| 
 
-|*Caso de Teste*                                 |*CT04 - Acessar quiz*                                        |
+|*Caso de Teste*                                 |*CT04 - Acessar roadmap*                                        |
+|---|---|
+|Requisito Associado | RF-015 - A aplicação deve permitir a navegação para página de cada roadmap (front-end, back-end e data-science)|
+|Link do vídeo do teste realizado: |  (Coloque o link do vídeo aqui)| 
+
+|*Caso de Teste*                                 |*CT05 - Editar Cadastro*                                        |
+|---|---|
+|Requisito Associado | RF-028 - A aplicação deve permitir que o usuário edite e faça a alteração dos seus dados|
+|Link do vídeo do teste realizado: |  (Coloque o link do vídeo aqui)| 
+
+|*Caso de Teste*                                 |*CT06 - Acessar quiz*                                        |
 |---|---|
 |Requisito Associado | RF-017 - A aplicação deve permitir a navegação para o a página do quiz|
 |Link do vídeo do teste realizado: | https://1drv.ms/v/s!Aqv2merruqSDgQwaNndlQ1sMq202?e=E5crHT
