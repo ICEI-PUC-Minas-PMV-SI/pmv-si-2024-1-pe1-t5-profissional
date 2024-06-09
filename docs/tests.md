@@ -98,7 +98,7 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |*Caso de Teste*                                 |*CT03 - Editar Cadastro*                                        |
 |---|---|
 |Requisito Associado | RF-028 - A aplicação deve permitir que o usuário edite e faça a alteração dos seus dados|
-|Link do vídeo do teste realizado: |  (Coloque o link do vídeo aqui)| 
+|Link do vídeo do teste realizado: | [ (Coloque o link do vídeo aqui)](https://1drv.ms/v/s!Aqv2merruqSDgRQSc8K6WaIiRhvn)| 
 
 |*Caso de Teste*                                 |*CT04 - Acessar roadmap*                                        |
 |---|---|
