@@ -25,35 +25,95 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
 Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe qual o Requisito Funcional ou não funcional que ele está verificando. Associe também a página (ou artefato) onde o teste será realizado e descreva o cenário do teste. Veja a tabela de exemplo.
 
 
-**Caso de Teste** | **CT01 - Criar conta parte 1**
+**Caso de Teste** | **CT01 - Criar conta**
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Clique em criar conta <br> 2) Preencha todos os campos do formulário <br> 3) Clique no botão "Continuar".
-**Requisitos associados** | RF-001
-**Resultado esperado** | Prosseguir para a parte 2 do cadastro
+**Procedimento**  | 1) Usuário informa nome, e-mail, senha e clica no botão "Cadastrar" <br> 2) A aplicação verifica se os dados são válidos e informa ao usuário.
+**Requisitos associados** | RF-006
+**Resultado esperado** | Criação de vadastro
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro
 **Resultado obtido** | Sucesso
 
-**Caso de Teste** | **CT02 - Criar conta parte 2**
+**Caso de Teste** | **CT02 - Acessar conta**
  :--------------: | ------------
-**Procedimento**  | 1) Preencha todos os campos do formulário <br> 2) Clique no botão "Criar conta" <br> 
-**Requisitos associados** | RF-001
-**Resultado esperado** | Usuário cadastrado
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
+**Procedimento**  | 1) Usuário informa Email, Senha e clica no botão "Entrar" <br> 2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam. <br> 
+**Requisitos associados** | RF-011
+**Resultado esperado** | Usuário logado.
+**Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
+**Resultado obtido** | Sucesso.
+
+**Caso de Teste** | **CT03 - Alterar dados da conta**
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário logado clicará em "Editar Usuário" <br> 2) A aplicação verifica as alterações e edita os dados conforme informados. <br> 
+**Requisitos associados** | RF-028
+**Resultado esperado** | Usuário editado.
+**Dados de entrada** | Inserção de dados válidos nas edições.
+**Resultado obtido** | Sucesso.
+
+**Caso de Teste** | **CT03 - Acessar roadmap**
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário clica no botão "Saiba Mais" do roadmap de sua correspondência <br> 2) A aplicação verifica e o encaminha para o roadmap correspondente. <br> 
+**Requisitos associados** | RF-015
+**Resultado esperado** | Visualização do roadmap selecionado.
+**Dados de entrada** | Solicitação de visualização do roadmap selecionado.
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT04 - Acessar quiz**
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário clica no botão "Acessar Quiz"  <br> 2) A aplicação verifica e o encaminha para o quiz. <br> 
+**Requisitos associados** | RF-017
+**Resultado esperado** | Visualização do quiz.
+**Dados de entrada** | Solicitação de visualização do quiz.
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT05 - Responder quiz e visuzalizar sugestão**
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário visualiza oito perguntas que apareceram em recorrência de suas respostas  <br> 2) Usuário seleciona uma, duas ou três das opções de resposta.  <br> 3)  A aplicação verifica suas respostas e o fornece a sugestão de roadmap. <br>
+**Requisitos associados** | RF-018
+**Resultado esperado** | Sugestão de roadmap.
+**Dados de entrada** | Respostas do quiz.
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT06 - Acessar conteúdos do roadmap**
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário clicar no conteúdo que é de seu interesse  <br> 2) A aplicação o encaminha para o material do conteúdo correspondente  <br> 
+**Requisitos associados** | RF-027
+**Resultado esperado** | Visualização do conteúdo.
+**Dados de entrada** | Solicitação de visualização do conteúdo
 **Resultado obtido** | Sucesso
 
 ## Registro dos Testes de Software
 
 Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
 
-|*Caso de Teste*                                 |*CT01 - Criar conta parte 1*                                         |
+|*Caso de Teste*                                 |*CT01 - Criar conta*                                         |
 |---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/u/s!AhD2JqpOUvJChapRtRSQ9vPzbNLwGA?e=mxZs6t| 
+|Requisito Associado | RF-006 - A aplicação deve permitir a criação de usuário por Nome,Email e Senha|
+|Link do vídeo do teste realizado: https://1drv.ms/v/s!Aqv2merruqSDgQ9SDmZxVexgScds
 
-|*Caso de Teste*                                 |*CT02 - Criar conta parte 2*                                        |
+|*Caso de Teste*                                 |*CT02 - Acessar conta*                                        |
 |---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Requisito Associado | RF-011 - A aplicação deve permitir a inserção de login por Email e Senha|
+|Link do vídeo do teste realizado: https://1drv.ms/v/s!Aqv2merruqSDgQ4CPF_AINvL5uei 
+
+|*Caso de Teste*                                 |*CT03 - Acessar roadmap*                                        |
+|---|---|
+|Requisito Associado | RF-015 - A aplicação deve permitir a navegação para página de cada roadmap (front-end, back-end e data-science)|
+|Link do vídeo do teste realizado: |  (Coloque o link do vídeo aqui)| 
+
+|*Caso de Teste*                                 |*CT04 - Acessar quiz*                                        |
+|---|---|
+|Requisito Associado | RF-017 - A aplicação deve permitir a navegação para o a página do quiz|
+|Link do vídeo do teste realizado: | https://1drv.ms/v/s!Aqv2merruqSDgQwaNndlQ1sMq202?e=E5crHT
+
+|*Caso de Teste*                                 |*CT05 - Responder quiz e visuzalizar sugestão*                                        |
+|---|---|
+|Requisito Associado | RF-018 -A aplicação deve permitir a seleção entre três opções das oito perguntas|
+|Link do vídeo do teste realizado: | https://1drv.ms/v/s!Aqv2merruqSDgQl-pOO1HvYk1PBU?e=AB0wJt | 
+
+|*Caso de Teste*                                 |*CT05 - Acessar conteúdos do roadmap*                                        |
+|---|---|
+|Requisito Associado | RF-027 -A aplicação deve permitir a navegação para a playlist ou vídeo aula indicada ao usuário|
+|Link do vídeo do teste realizado: |  (Coloque o link do vídeo aqui)| 
 
 
 ## Avaliação dos Testes de Software
@@ -95,54 +155,51 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 
 | Nº do Cenário | Descrição do cenário |
 |---------------|----------------------|
-| 1             | Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando. |
-| 2             | Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço. |
+| 1             | Você é uma pessoa que deseja acessar diretamente o roadmap. Encontre o botão "Saiba Mais" e acesse. |
+| 2             | Você é uma pessoa que deseja responder o quiz para receber uma indicação de roadmap Encontre o quiz e inicie o questionário. |
 
 
 
 ## Registro de Testes de Usabilidade
 
-Cenário 1: Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando.
+Cenário 2: Você é uma pessoa que deseja acessar diretamente o roadmap. Encontre o botão "Saiba Mais" e acesse.
 
-| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
-|---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 27.87 segundos                  |
-| 2       | SIM             | 5                    | 17.11 segundos                  |
-| 3       | SIM             | 5                    | 39.09 segundos                  |
+| Usuário | Taxa de sucesso | Idade                | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|----------------------|---------------------------------|
+| 1       | SIM             | 27                   | 5                    | 10.48 segundos                  |
+| 2       | SIM             | 45                   | 5                    | 25.11 segundos                  |
+| 3       | SIM             | 54                   | 5                    | 29.19 segundos                  |
 |  |  |  |  |
-| **Média**     | 100%           | 5                | 28.02 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 8.66 segundos |
+| **Média**     | 100%      | 42                   | 5                    | 21.69 segundos                  |
+| **Tempo para conclusão pelo especialista** | SIM | 23 |                  | 6.23 segundos                   |
 
 
-    Comentários dos usuários: Achei o site muito bom e intuitivo. 
-    Não tive dificuldades e acho que ficou bem intuitivo.
+    Comentários dos usuários: "Muito bacana".
 
 
-Cenário 2: Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço.
+Cenário 2: Você é uma pessoa que deseja responder o quiz. Encontre o quiz e inicie o questionário.
 
-| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
-|---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 4                    | 36.21 segundos                          |
-|  |  |  |  |
-| **Média**     | 100%           | 4.67                | 30.05 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+| Usuário | Taxa de sucesso | Idade                | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|----------------------|---------------------------------|
+| 1       | SIM             | 27                   | 5                    | 12.46 segundos                  |
+| 2       | SIM             | 45                   | 5                    | 28.12 segundos                  |
+| 3       | SIM             | 54                   | 5                    | 32.47 segundos                  |
+|  |  |  |  |  
+| **Média**     | 100%      |  42                  | 5                    | 24.35 segundos                  |
+| **Tempo para conclusão pelo especialista** | SIM | 19 |                  | 7.57 segundos                   |
 
 
-    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
-    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
-    tanto na hora da pesquisa, quanto depois dela, nos resultados.
+    Comentários dos usuários: A possibilidade de responder um quiz que permite um direcionamento para determinada área
+    de estudo foi genial.
 
 ## Avaliação dos Testes de Usabilidade
 
-Tomando como base os resultados obtidos, foi possível verificar que a aplicação web apresenta bons resultados quanto à taxa de sucesso na interação dos usuários, tendo em vista que os cenários propostos foram concluídos com sucesso.
+Com base nos resultados obtidos, a aplicação web mostrou-se eficaz na interação com os usuários, com todos os cenários propostos sendo concluídos com sucesso.
 
-Além disso, a aplicação obteve também uma elevada satisfação subjetiva dos usuários no momento que realizavam os cenários propostos. Prova são as médias das avaliações em cada um dos cenários, que variou entre 4 (bom) e 5 (ótimo).
+Os usuários expressaram alta satisfação ao completar as tarefas, embora aqueles com maior idade tenham encontrado algumas dificuldades. Apesar disso, as avaliações desse grupo foram predominantemente positivas, com notas variando de 3 (regular) a 5 (ótimo).
 
-Com relação ao tempo para conclusão de cada tarefa/cenário, notamos discrepância entre a média de tempo dos usuários e o tempo do especialista/desenvolvedor em todos os cenários. Tal discrepância, em certa medida, é esperada, tendo em vista que o desenvolvedor já tem prévio conhecimento de toda a interface da aplicação, do posicionamento dos elementos, lógica de organização das páginas, etc.
+Houve uma diferença notável no tempo de conclusão das tarefas entre os usuários comuns e os desenvolvedores. Essa diferença é esperada, já que os desenvolvedores possuem um conhecimento detalhado da interface, dos elementos e da organização das páginas.
 
-Contudo, tendo em vista que a diferença foi relevante (por exemplo, 113 segundos — média usuários — contra 25 segundos — especialista — no cenário três), e ainda os comentários feitos por alguns usuários, entendemos haver oportunidades de melhoria na usabilidade da aplicação.
-
+Em resumo, o projeto recebeu avaliações muito positivas nos testes e no feedback dos usuários, mas ainda há espaço para melhorias, especialmente para torná-lo mais acessível a usuários com deficiência visual.
 
 

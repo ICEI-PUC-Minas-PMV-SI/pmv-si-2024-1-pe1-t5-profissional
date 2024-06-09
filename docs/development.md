@@ -36,8 +36,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-007| A aplicação deve permitir a navegação para página de fazer login | Lucas | criar-cadastro.html |
 |RF-010| A aplicação deve permitir a navegação para o envio de email no footer | Lucas | criar-cadastro.html |
 |RF-011| A aplicação deve permitir a inserção de login por Email e Senha | João | fazer-log.html |
-|RF-012| A aplicação deve permitir a navegação para página de fazer cadastro  | João | fazer-log.html |
-|RF-013| A aplicação deve permitir a navegação para o envio de email no footer | João | fazer-log.html |
+|RF-012| A aplicação deve permitir a navegação para página de fazer cadastro  | Lucas | fazer-log.html |
+|RF-013| A aplicação deve permitir a navegação para o envio de email no footer | Lucas | fazer-log.html |
 |RF-014| A aplicação deve permitir a navegação para primeira página deslogada  | Leandra | usu-logado.html |
 |RF-015| A aplicação deve permitir a navegação para página de cada roadmap (front-end, back-end e data-science) | Leandra | usu-logado.html |
 |RF-016| A aplicação deve permitir a navegação para o envio de email no footer | Leandra | usu-logado.html |
@@ -55,6 +55,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-025| A aplicação deve permitir a navegação para primeira página deslogada  | Leandra | map-front.html |
 |RF-026| A aplicação deve permitir a navegação para o envio de email no footer | Leandra | map-front.html |
 |RF-027| A aplicação deve permitir a navegação para a playlist ou vídeo aula indicada ao usuário | Leandra | map-front.html |
+|RF-028| A aplicação deve permitir que o usuário edite e faça a alteração dos seus dados | João| crud.html |
 
 
 
