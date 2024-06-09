@@ -105,22 +105,17 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |Requisito Associado | RF-015 - A aplicação deve permitir a navegação para página de cada roadmap (front-end, back-end e data-science)|
 |Link do vídeo do teste realizado: |https://1drv.ms/v/s!Aqv2merruqSDgQ3EpQyXiV-FVVey?e=zAqaOz| 
 
-|*Caso de Teste*                                 |*CT05 - Editar Cadastro*                                        |
-|---|---|
-|Requisito Associado | RF-028 - A aplicação deve permitir que o usuário edite e faça a alteração dos seus dados|
-|Link do vídeo do teste realizado: |  (Coloque o link do vídeo aqui)| 
-
-|*Caso de Teste*                                 |*CT06 - Acessar quiz*                                        |
+|*Caso de Teste*                                 |*CT05 - Acessar quiz*                                        |
 |---|---|
 |Requisito Associado | RF-017 - A aplicação deve permitir a navegação para o a página do quiz|
 |Link do vídeo do teste realizado: | https://1drv.ms/v/s!Aqv2merruqSDgQwaNndlQ1sMq202?e=E5crHT
 
-|*Caso de Teste*                                 |*CT05 - Responder quiz e visuzalizar sugestão*                                        |
+|*Caso de Teste*                                 |*CT06 - Responder quiz e visuzalizar sugestão*                                        |
 |---|---|
 |Requisito Associado | RF-018 -A aplicação deve permitir a seleção entre três opções das oito perguntas|
 |Link do vídeo do teste realizado: |https://1drv.ms/v/s!Aqv2merruqSDgRLWiiRXvqyvCGLd| 
 
-|*Caso de Teste*                                 |*CT05 - Acessar conteúdos do roadmap*                                        |
+|*Caso de Teste*                                 |*CT07 - Acessar conteúdos do roadmap*                                        |
 |---|---|
 |Requisito Associado | RF-027 -A aplicação deve permitir a navegação para a playlist ou vídeo aula indicada ao usuário|
 |Link do vídeo do teste realizado: | [https://1drv.ms/v/s!Aqv2merruqSDgRNpiY-FwDx6T5cV| 
