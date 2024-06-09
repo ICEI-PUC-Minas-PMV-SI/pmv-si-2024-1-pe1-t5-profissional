@@ -111,30 +111,49 @@ function proximaQuestao(numero_questao){
 
 
 sub1.addEventListener('click', function(){
-    proximaQuestao(2);
-    growProgressBar('20%');
+    if (!document.querySelector('#qu-1 input[type="radio"]:checked')) {
+        alert('Por favor, responda a pergunta antes de prosseguir.');
 
+    } else{
+        proximaQuestao(2);
+        growProgressBar('20%');
+    }
 
 })
 
 sub2.addEventListener('click', function(){
-    proximaQuestao(3);
-    growProgressBar('40%');
+    
+    if (!document.querySelector('#qu-2 input[type="radio"]:checked')) {
+        alert('Por favor, responda a pergunta antes de prosseguir.');
+    } else {
+        proximaQuestao(3);
+        growProgressBar('40%');
+    }
 
 
 })
 
 sub3.addEventListener('click', function(){
+    
+    if  (!document.querySelector('#qu-3 input[type="radio"]:checked')) {
+        alert('Por favor, responda a pergunta antes de prosseguir.');
+  
+    } else{
     proximaQuestao(4);
     growProgressBar('45%');
-
+}
 
 })
 
 sub4.addEventListener('click', function(){
-    proximaQuestao(5);
-    growProgressBar('60%');
+    if(!document.querySelector('#qu-3 input[type="radio"]:checked')) {
+        alert('Por favor, responda a pergunta antes de prosseguir.');
+  
 
+    
+    }else {proximaQuestao(5);
+    growProgressBar('60%');
+    }
 
 })
 
