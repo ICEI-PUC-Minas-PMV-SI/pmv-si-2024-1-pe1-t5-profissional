@@ -100,6 +100,11 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |Requisito Associado | RF-015 - A aplicação deve permitir a navegação para página de cada roadmap (front-end, back-end e data-science)|
 |Link do vídeo do teste realizado: |  (Coloque o link do vídeo aqui)| 
 
+|*Caso de Teste*                                 |*CT04 - Editar Cadastro*                                        |
+|---|---|
+|Requisito Associado | RF-028 - A aplicação deve permitir que o usuário edite e faça a alteração dos seus dados|
+|Link do vídeo do teste realizado: |  (Coloque o link do vídeo aqui)| 
+
 |*Caso de Teste*                                 |*CT04 - Acessar quiz*                                        |
 |---|---|
 |Requisito Associado | RF-017 - A aplicação deve permitir a navegação para o a página do quiz|
