@@ -103,7 +103,7 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |*Caso de Teste*                                 |*CT04 - Acessar roadmap*                                        |
 |---|---|
 |Requisito Associado | RF-015 - A aplicação deve permitir a navegação para página de cada roadmap (front-end, back-end e data-science)|
-|Link do vídeo do teste realizado: |  (Coloque o link do vídeo aqui)| 
+|Link do vídeo do teste realizado: |https://1drv.ms/v/s!Aqv2merruqSDgQ3EpQyXiV-FVVey?e=zAqaOz| 
 
 |*Caso de Teste*                                 |*CT05 - Editar Cadastro*                                        |
 |---|---|
@@ -118,12 +118,12 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |*Caso de Teste*                                 |*CT05 - Responder quiz e visuzalizar sugestão*                                        |
 |---|---|
 |Requisito Associado | RF-018 -A aplicação deve permitir a seleção entre três opções das oito perguntas|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!Aqv2merruqSDgQl-pOO1HvYk1PBU?e=AB0wJt | 
+|Link do vídeo do teste realizado: |https://1drv.ms/v/s!Aqv2merruqSDgRLWiiRXvqyvCGLd| 
 
 |*Caso de Teste*                                 |*CT05 - Acessar conteúdos do roadmap*                                        |
 |---|---|
 |Requisito Associado | RF-027 -A aplicação deve permitir a navegação para a playlist ou vídeo aula indicada ao usuário|
-|Link do vídeo do teste realizado: |  (Coloque o link do vídeo aqui)| 
+|Link do vídeo do teste realizado: | [https://1drv.ms/v/s!Aqv2merruqSDgRNpiY-FwDx6T5cV| 
 
 
 ## Avaliação dos Testes de Software
