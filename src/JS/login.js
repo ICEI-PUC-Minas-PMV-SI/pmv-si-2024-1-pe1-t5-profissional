@@ -1,5 +1,3 @@
-let btn = document.querySelector('.fa-eye')
-
 btn.addEventListener('click', ()=> {
 
     let inputSenha = document.querySelector('#senha')
@@ -18,7 +16,6 @@ function entrar() {
     let senha = document.querySelector('#senha')
     let senhaLabel = document.querySelector('#senhaLabel')
 
-    let msgError = document.querySelector('#msgError')
     let listaUser = []
 
     let userValid = {
