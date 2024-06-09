@@ -77,15 +77,15 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
 
-|*Caso de Teste*                                 |*CT01 - Criar conta conta*                                         |
+|*Caso de Teste*                                 |*CT01 - Criar conta*                                         |
 |---|---|
 |Requisito Associado | RF-006 - A aplicação deve permitir a criação de usuário por Nome,Email e Senha|
-|Link do vídeo do teste realizado: | (Coloque o link do vídeo aqui)| 
+|Link do vídeo do teste realizado: https://1drv.ms/v/s!Aqv2merruqSDgQ9SDmZxVexgScds
 
 |*Caso de Teste*                                 |*CT02 - Acessar conta*                                        |
 |---|---|
 |Requisito Associado | RF-011 - A aplicação deve permitir a inserção de login por Email e Senha|
-|Link do vídeo do teste realizado: |  (Coloque o link do vídeo aqui)| 
+|Link do vídeo do teste realizado: https://1drv.ms/v/s!Aqv2merruqSDgQ4CPF_AINvL5uei 
 
 |*Caso de Teste*                                 |*CT03 - Acessar roadmap*                                        |
 |---|---|
@@ -95,7 +95,7 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |*Caso de Teste*                                 |*CT04 - Acessar quiz*                                        |
 |---|---|
 |Requisito Associado | RF-017 - A aplicação deve permitir a navegação para o a página do quiz|
-|Link do vídeo do teste realizado: |  (Coloque o link do vídeo aqui)| 
+|Link do vídeo do teste realizado: | https://1drv.ms/v/s!Aqv2merruqSDgQwaNndlQ1sMq202?e=E5crHT
 
 |*Caso de Teste*                                 |*CT05 - Responder quiz e visuzalizar sugestão*                                        |
 |---|---|
