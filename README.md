@@ -6,7 +6,7 @@
 
 `SEMESTRE: 1º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Nosso projeto visa enfrentar os desafios de orientação e direcionamento de carreira enfrentados por aspirantes a profissionais de tecnologia. Através de nosso site, é fornecido indicações de profissões alinhadas ao perfil do usuário através de um Quiz e roadmaps personalizados. O objetivo é capacitar iniciantes na área de tecnologia, promovendo o autoconhecimento e orientando o desenvolvimento profissional, contribuindo para a redução da evasão nos cursos de TI e atendendo à crescente demanda por profissionais qualificados.
 
 ## Integrantes
 
