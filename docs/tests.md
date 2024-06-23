@@ -161,13 +161,13 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 | Nº do Cenário | Descrição do cenário |
 |---------------|----------------------|
 | 1             | Você é uma pessoa que deseja acessar diretamente o roadmap. Encontre o botão "Saiba Mais" e acesse. |
-| 2             | Você é uma pessoa que deseja responder o quiz para receber uma indicação de roadmap Encontre o quiz e inicie o questionário. |
+| 2             | Você é uma pessoa que deseja receber uma indicação de roadmap. |
 
 
 
 ## Registro de Testes de Usabilidade
 
-Cenário 2: Você é uma pessoa que deseja acessar diretamente o roadmap. Encontre o botão "Saiba Mais" e acesse.
+Cenário 2: Você é uma pessoa que deseja receber uma indicação de roadmap.
 
 | Usuário | Taxa de sucesso | Idade                | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|----------------------|---------------------------------|
