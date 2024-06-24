@@ -39,7 +39,7 @@ function salvar() {
     }
 
    
-    usuarioExistente.senha = senha;
+    usuarioExistente.password = senha;
     localStorage.setItem("users", JSON.stringify(users));
 
     alert("Senha alterada com sucesso!");
