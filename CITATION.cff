@@ -1,29 +1,25 @@
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title:
+title: Dev Path
 authors:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - family-names:
-    given-names:
-  - name-suffix: Professor XXXX
+  - family-names: Rodrigues de Araujo
+    given-names: Ana Clara
+  - family-names: Laudares Alves Pimenta Silva
+    given-names: Anna Luiza
+  - family-names: Silva Farchi
+    given-names: João Victor
+  - family-names: Silva
+    given-names: Leandra Gomes
+  - family-names: Santos Lima
+    given-names: Lucas Filipe
+  - family-names: Teixeira
+    given-names: Natã Gabriel
+  - name-suffix: Professora Michelle Hanne Soares de Andrade
     affiliation: PUC Minas
-    family-names:
-    given-names:
 keywords:
-  -
-  -
-repository-code:
+  - Dev Path
+  - Ferramenta de qualificação profissional 
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t5-profissional
 license: CC-BY-4.0
 version: 1.0.0
 date-released: 2023-06-30
