@@ -1,19 +1,7 @@
-# Apresentação
+# Apresentação do projeto RoadMap
 
-Faça uma apresentação de um resumo de todos o processo de desenvolvimento e no final apresente a solução desenvolvida, usando um pequeno vídeo.
-
-Liste os arquivos produzidos e postados nesta pasta, com suas localizaçãoes e descrição do conteúdo neste arquivo Readme.md.
-
-
-* [Pitch inicial](https://www.canva.com/design/DAGI6U__FlQ/cJNoY1pYwIkf5HG7sGjCbg/view?utm_content=DAGI6U__FlQ&utm_campaign=designshare&utm_medium=link&utm_source=editor) -- arquivo com os slides da apresentação inicial
-* [Apresentação final](https://www.canva.com/design/DAGI6U__FlQ/cJNoY1pYwIkf5HG7sGjCbg/view?utm_content=DAGI6U__FlQ&utm_campaign=designshare&utm_medium=link&utm_source=editor) -- arquivo com os slides da apresentação final
-* [Vídeo de demonstração](https://youtu.be/1_2m-t9oUYs?si=p_UYTXhaS_oB02VR) -- arquivo com a demonstração do funcionamento do sistema
-
-O conjunto de slides deve ser apresentado em um arquivo PowerPoint ou PDF. A apresentação do projeto deve contemplar todos os itens trabalhados nos demais artefatos. Alguns aspectos que devem ser contemplados na apresentação são listados a seguir.
-
-## Título do Projeto
-
-Nome e marca do projeto
+* [Apresentação](https://www.canva.com/design/DAGI6U__FlQ/cJNoY1pYwIkf5HG7sGjCbg/view?utm_content=DAGI6U__FlQ&utm_campaign=designshare&utm_medium=link&utm_source=editor) -- arquivo com os slides da apresentação final
+* [Vídeo de demonstração](https://youtu.be/1_2m-t9oUYs?si=p_UYTXhaS_oB02VR) -- arquivo com vídeo da demonstração do funcionamento do sistema
 
 ## Identidade Visual (Marca, Design)
 
